@@ -1,0 +1,372 @@
+{
+    "09": {
+      "description": "Coffee, tea, mate and spices",
+      "categories": {
+        "0901": {
+          "description": "Coffee, whether or not roasted or decaffeinated; coffee husks and skins; coffee substitutes containing coffee in any proportion",
+          "products": {
+            "0901.11": {
+              "description": "Coffee, not roasted – Not decaffeinated",
+              "classified-products": {
+                "0901.11.11": "Arabica plantation – A Grade",
+                "0901.11.12": "Arabica plantation – B Grade",
+                "0901.11.13": "Arabica plantation – C Grade",
+                "0901.11.19": "Arabica plantation – Other"
+              }
+            },
+            "0901.12": {
+              "description": "Coffee, not roasted – Decaffeinated",
+              "classified-products": {
+                "0901.12.00": "Coffee, not roasted – Decaffeinated"
+              }
+            },
+            "0901.21": {
+              "description": "Coffee, roasted – Not decaffeinated",
+              "classified-products": {
+                "0901.21.10": "Coffee, roasted – In bulk packing",
+                "0901.21.90": "Coffee, roasted – Other"
+              }
+            },
+            "0901.22": {
+              "description": "Coffee, roasted – Decaffeinated",
+              "classified-products": {
+                "0901.22.10": "Coffee, roasted – In bulk packing",
+                "0901.22.90": "Coffee, roasted – Other"
+              }
+            },
+            "0901.90": {
+              "description": "Other",
+              "classified-products": {
+                "0901.90.10": "Coffee husks and skins",
+                "0901.90.20": "Coffee substitutes containing coffee",
+                "0901.90.90": "Other"
+              }
+            }
+          }
+        },
+        "0902": {
+          "description": "Tea, whether or not flavoured",
+          "products": {
+            "0902.10": {
+              "description": "Green tea (not fermented) in immediate packings ≤ 3 kg",
+              "classified-products": {
+                "0902.10.10": "Content ≤ 25 g",
+                "0902.10.20": "Content > 25 g and ≤ 1 kg",
+                "0902.10.30": "Content > 1 kg and ≤ 3 kg",
+                "0902.10.90": "Other"
+              }
+            },
+            "0902.20": {
+              "description": "Other green tea (not fermented)",
+              "classified-products": {
+                "0902.20.10": "Packets > 3 kg and ≤ 20 kg",
+                "0902.20.20": "Bulk",
+                "0902.20.30": "Agglomerated (balls, bricks, tablets)",
+                "0902.20.40": "Waste",
+                "0902.20.90": "Other"
+              }
+            },
+            "0902.30": {
+              "description": "Black tea or partly fermented, immediate packings ≤ 3 kg",
+              "classified-products": {
+                "0902.30.10": "Content ≤ 25 g",
+                "0902.30.20": "Content > 25 g and ≤ 1 kg",
+                "0902.30.30": "Content > 1 kg and ≤ 3 kg",
+                "0902.30.90": "Other"
+              }
+            },
+            "0902.40": {
+              "description": "Other black tea & partly fermented",
+              "classified-products": {
+                "0902.40.10": "Content > 3 kg and ≤ 20 kg",
+                "0902.40.20": "Leaf in bulk",
+                "0902.40.30": "Dust in bulk",
+                "0902.40.40": "Tea bags",
+                "0902.40.50": "Agglomerated",
+                "0902.40.60": "Waste",
+                "0902.40.90": "Other"
+              }
+            }
+          }
+        },
+        "0903": {
+          "description": "Maté",
+          "products": {
+            "0903.00": {
+              "description": "Mate",
+              "classified-products": {
+                "0903.00.00": "Mate"
+              }
+            }
+          }
+        },
+        "0904": {
+          "description": "Pepper (Piper); dried or crushed or ground fruits of Capsicum or Pimenta",
+          "products": {
+            "0904.11": {
+              "description": "Pepper – Neither crushed nor ground",
+              "classified-products": {
+                "0904.11.10": "Pepper, long",
+                "0904.11.20": "Light black pepper",
+                "0904.11.30": "Black pepper, garbled",
+                "0904.11.40": "Black pepper, ungarbled",
+                "0904.11.50": "Green pepper (dehydrated)",
+                "0904.11.60": "Pepper pinheads",
+                "0904.11.70": "Green pepper, frozen or dried",
+                "0904.11.80": "Pepper other than green, frozen",
+                "0904.11.90": "Other"
+              }
+            },
+            "0904.12": {
+              "description": "Pepper – Crushed or ground",
+              "classified-products": {
+                "0904.12.00": "Crushed or ground pepper"
+              }
+            },
+            "0904.21": {
+              "description": "Capsicum/Pimenta – Dried, uncrushed",
+              "classified-products": {
+                "0904.21.10": "Capsicum",
+                "0904.21.20": "Pimenta"
+              }
+            },
+            "0904.22": {
+              "description": "Capsicum/Pimenta – Crushed or ground",
+              "classified-products": {
+                "0904.22.11": "Chilli powder",
+                "0904.22.19": "Chilli – Other",
+                "0904.22.21": "Pimenta powder",
+                "0904.22.29": "Pimenta – Other"
+              }
+            }
+          }
+        },
+        "0905": {
+          "description": "Vanilla",
+          "products": {
+            "0905.10": {
+              "description": "Vanilla – Neither crushed nor ground",
+              "classified-products": {
+                "0905.10.00": "Vanilla, uncrushed"
+              }
+            },
+            "0905.20": {
+              "description": "Vanilla – Crushed or ground",
+              "classified-products": {
+                "0905.20.00": "Vanilla, crushed or ground"
+              }
+            }
+          }
+        },
+        "0906": {
+          "description": "Cinnamon and cinnamon‑tree flowers",
+          "products": {
+            "0906.11": {
+              "description": "Cinnamon bark/tree flowers – Uncrushed",
+              "classified-products": {
+                "0906.11.10": "Cinnamon bark",
+                "0906.11.20": "Cinnamon tree flowers",
+                "0906.11.90": "Other"
+              }
+            },
+            "0906.19": {
+              "description": "Cassia",
+              "classified-products": {
+                "0906.19.10": "Cassia",
+                "0906.19.90": "Other"
+              }
+            },
+            "0906.20": {
+              "description": "Cinnamon – Crushed or ground",
+              "classified-products": {
+                "0906.20.00": "Crushed or ground cinnamon"
+              }
+            }
+          }
+        },
+        "0907": {
+          "description": "Cloves (whole fruit, cloves & stems)",
+          "products": {
+            "0907.10": {
+              "description": "Cloves – Uncrushed",
+              "classified-products": {
+                "0907.10.10": "Extracted cloves",
+                "0907.10.20": "Unextracted cloves (no stem)",
+                "0907.10.30": "Clove stem",
+                "0907.10.90": "Other"
+              }
+            },
+            "0907.20": {
+              "description": "Cloves – Crushed or ground",
+              "classified-products": {
+                "0907.20.00": "Crushed or ground cloves"
+              }
+            }
+          }
+        },
+        "0908": {
+          "description": "Nutmeg, mace and cardamoms",
+          "products": {
+            "0908.11": {
+              "description": "Nutmeg – Not crushed",
+              "classified-products": {
+                "0908.11.10": "Nutmeg – In shell",
+                "0908.11.20": "Nutmeg – Shelled",
+                "0908.11.90": "Other"
+              }
+            },
+            "0908.12": {
+              "description": "Nutmeg – Crushed or ground",
+              "classified-products": {
+                "0908.12.00": "Nutmeg – Crushed or ground"
+              }
+            },
+            "0908.21": {
+              "description": "Mace – Not crushed",
+              "classified-products": {
+                "0908.21.00": "Mace – Uncrushed"
+              }
+            },
+            "0908.22": {
+              "description": "Mace – Crushed or ground",
+              "classified-products": {
+                "0908.22.00": "Mace – Crushed or ground"
+              }
+            },
+            "0908.31": {
+              "description": "Cardamoms – Not crushed",
+              "classified-products": {
+                "0908.31.10": "Cardamom, large",
+                "0908.31.20": "Cardamom, small (Alleppey green)",
+                "0908.31.30": "Cardamom, small Coorg green",
+                "0908.31.40": "Cardamom, bleached/half bleached",
+                "0908.31.50": "Cardamom, small mixed",
+                "0908.31.90": "Cardamom – Other"
+              }
+            },
+            "0908.32": {
+              "description": "Cardamoms – Crushed or ground",
+              "classified-products": {
+                "0908.32.10": "Cardamom powder",
+                "0908.32.20": "Cardamom seeds",
+                "0908.32.30": "Cardamom husk",
+                "0908.32.90": "Cardamom – Other"
+              }
+            }
+          }
+        },
+        "0909": {
+          "description": "Seeds of anise, badian, fennel, coriander, cumin or caraway; juniper berries",
+          "products": {
+            "0909.21": {
+              "description": "Coriander seeds – Uncrushed",
+              "classified-products": {
+                "0909.21.10": "Coriander – Seed quality",
+                "0909.21.90": "Coriander – Other"
+              }
+            },
+            "0909.22": {
+              "description": "Coriander – Crushed or ground",
+              "classified-products": {
+                "0909.22.00": "Coriander – Crushed or ground"
+              }
+            },
+            "0909.31": {
+              "description": "Cumin seeds – Uncrushed",
+              "classified-products": {
+                "0909.31.11": "Cumin – Seed quality",
+                "0909.31.19": "Cumin – Other"
+              }
+            },
+            "0909.32": {
+              "description": "Cumin – Crushed or ground", 
+              "classified-products": {
+                "0909.32.00": "Cumin – Crushed or ground"
+              }
+            },
+            "0909.61": {
+              "description": "Anise/badian/caraway/fennel/juniper berries – Uncrushed",
+              "classified-products": {
+                "0909.61.11": "Anise – Seed quality",
+                "0909.61.19": "Anise – Other",
+                "0909.61.21": "Badian – Seed quality",
+                "0909.61.29": "Badian – Other",
+                "0909.61.31": "Caraway/fennel – Seed quality",
+                "0909.61.39": "Caraway/fennel – Other",
+                "0909.61.41": "Juniper berries – Seed quality",
+                "0909.61.49": "Juniper berries – Other"
+              }
+            },
+            "0909.62": {
+              "description": "Anise/badian/caraway/fennel/juniper – Crushed or ground",
+              "classified-products": {
+                "0909.62.10": "Anise – Ground",
+                "0909.62.20": "Badian – Ground",
+                "0909.62.30": "Caraway/fennel – Ground",
+                "0909.62.40": "Juniper berries – Ground"
+              }
+            }
+          }
+        },
+        "0910": {
+          "description": "Ginger, saffron, turmeric, thyme, bay leaves, curry and other spices",
+          "products": {
+            "0910.11": {
+              "description": "Ginger – Uncrushed",
+              "classified-products": {
+                "0910.11.10": "Ginger – Fresh",
+                "0910.11.20": "Ginger – Dried unbleached",
+                "0910.11.30": "Ginger – Dried bleached",
+                "0910.11.90": "Ginger – Other"
+              }
+            },
+            "0910.12": {
+              "description": "Ginger – Crushed or ground",
+              "classified-products": {
+                "0910.12.10": "Ginger – Powder",
+                "0910.12.90": "Ginger – Other"
+              }
+            },
+            "0910.20": {
+              "description": "Saffron",
+              "classified-products": {
+                "0910.20.10": "Saffron stigma",
+                "0910.20.20": "Saffron stamen",
+                "0910.20.90": "Saffron – Other"
+              }
+            },
+            "0910.30": {
+              "description": "Turmeric (Curcuma)",
+              "classified-products": {
+                "0910.30.10": "Turmeric – Fresh",
+                "0910.30.20": "Turmeric – Dried",
+                "0910.30.30": "Turmeric – Powder",
+                "0910.30.90": "Turmeric – Other"
+              }
+            },
+            "0910.99": {
+              "description": "Other spices",
+              "classified-products": {
+                "0910.99.11": "Celery seed",
+                "0910.99.12": "Fenugreek seed",
+                "0910.99.13": "Dill seed",
+                "0910.99.14": "Ajwain",
+                "0910.99.15": "Cassia tora seed",
+                "0910.99.19": "Other seeds",
+                "0910.99.21": "Cassia powder",
+                "0910.99.23": "Celery powder",
+                "0910.99.24": "Fenugreek powder",
+                "0910.99.25": "Dill powder",
+                "0910.99.26": "Poppy seed powder",
+                "0910.99.27": "Mustard powder",
+                "0910.99.29": "Other powders",
+                "0910.99.39": "Husk",
+                "0910.99.90": "Other"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

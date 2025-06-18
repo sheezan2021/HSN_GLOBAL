@@ -1,0 +1,430 @@
+{
+    "07": {
+      "description": "Edible vegetables and certain roots and tubers",
+      "categories": {
+        "0701": {
+          "description": "Potatoes, fresh or chilled",
+          "products": {
+            "0701.10": {
+              "description": "Potatoes – Seed",
+              "classified-products": {
+                "0701.10.00": "Potatoes, fresh or chilled – Seed"
+              }
+            },
+            "0701.90": {
+              "description": "Potatoes – Other",
+              "classified-products": {
+                "0701.90.00": "Potatoes, fresh or chilled – Other"
+              }
+            }
+          }
+        },
+        "0702": {
+          "description": "Tomatoes, fresh or chilled",
+          "products": {
+            "0702.00": {
+              "description": "Tomatoes",
+              "classified-products": {
+                "0702.00.00": "Tomatoes, fresh or chilled"
+              }
+            }
+          }
+        },
+        "0703": {
+          "description": "Onions, shallots, garlic, leeks and other alliaceous vegetables, fresh or chilled",
+          "products": {
+            "0703.10": {
+              "description": "Onions & shallots",
+              "classified-products": {
+                "0703.10.10": "Onions",
+                "0703.10.11": "Rose onion",
+                "0703.10.19": "Onions & shallots – Other",
+                "0703.10.20": "Shallots",
+                "0703.10.90": "Onions & shallots – Other"
+              }
+            },
+            "0703.20": {
+              "description": "Garlic",
+              "classified-products": {
+                "0703.20.00": "Garlic"
+              }
+            },
+            "0703.90": {
+              "description": "Leeks & other alliaceous vegetables",
+              "classified-products": {
+                "0703.90.00": "Leeks and other alliaceous vegetables"
+              }
+            }
+          }
+        },
+        "0704": {
+          "description": "Cabbages, cauliflowers, kohlrabi, kale and similar edible brassicas, fresh or chilled",
+          "products": {
+            "0704.10": {
+              "description": "Cauliflowers & broccoli",
+              "classified-products": {
+                "0704.10.00": "Cauliflowers and broccoli"
+              }
+            },
+            "0704.20": {
+              "description": "Brussels sprouts",
+              "classified-products": {
+                "0704.20.00": "Brussels sprouts"
+              }
+            },
+            "0704.90": {
+              "description": "Other brassicas",
+              "classified-products": {
+                "0704.90.00": "Other brassicas"
+              }
+            }
+          }
+        },
+        "0706": {
+          "description": "Carrots, turnips, salad beetroot, salsify, celeriac, radishes and similar edible roots",
+          "products": {
+            "0706.10": {
+              "description": "Carrots & turnips",
+              "classified-products": {
+                "0706.10.00": "Carrots and turnips"
+              }
+            },
+            "0706.90": {
+              "description": "Other edible roots",
+              "classified-products": {
+                "0706.90.10": "Horse radish",
+                "0706.90.20": "Other radish",
+                "0706.90.30": "Salad beetroot",
+                "0706.90.90": "Other"
+              }
+            }
+          }
+        },
+        "0707": {
+          "description": "Cucumbers and gherkins, fresh or chilled",
+          "products": {
+            "0707.00": {
+              "description": "Cucumbers or gherkins",
+              "classified-products": {
+                "0707.00.00": "Cucumbers or gherkins"
+              }
+            }
+          }
+        },
+        "0708": {
+          "description": "Leguminous vegetables, shelled or unshelled, fresh or chilled",
+          "products": {
+            "0708.10": {
+              "description": "Peas",
+              "classified-products": {
+                "0708.10.00": "Peas"
+              }
+            },
+            "0708.20": {
+              "description": "Beans",
+              "classified-products": {
+                "0708.20.00": "Beans"
+              }
+            },
+            "0708.90": {
+              "description": "Other leguminous vegetables",
+              "classified-products": {
+                "0708.90.00": "Other leguminous vegetables"
+              }
+            }
+          }
+        },
+        "0709": {
+          "description": "Other vegetables, fresh or chilled",
+          "products": {
+            "0709.10": {
+              "description": "Globe artichokes",
+              "classified-products": {
+                "0709.10.00": "Globe artichokes"
+              }
+            },
+            "0709.20": {
+              "description": "Asparagus",
+              "classified-products": {
+                "0709.20.00": "Asparagus"
+              }
+            },
+            "0709.30": {
+              "description": "Aubergines (egg-plants)",
+              "classified-products": {
+                "0709.30.00": "Aubergines"
+              }
+            },
+            "0709.40": {
+              "description": "Celery (other than celeriac)",
+              "classified-products": {
+                "0709.40.00": "Celery"
+              }
+            },
+            "0709.60": {
+              "description": "Green chillies",
+              "classified-products": {
+                "0709.60.10": "Green chillies",
+                "0709.60.90": "Other"
+              }
+            },
+            "0709.70": {
+              "description": "Spinach etc.",
+              "classified-products": {
+                "0709.70.00": "Spinach, New Zealand spinach, orache"
+              }
+            },
+            "0709.90": {
+              "description": "Other vegetables",
+              "classified-products": {
+                "0709.90.10": "Mixed vegetables",
+                "0709.90.30": "Okra (bhindi)",
+                "0709.90.90": "Other"
+              }
+            }
+          }
+        },
+        "0710": {
+          "description": "Vegetables (uncooked or cooked by steaming etc.), frozen",
+          "products": {
+            "0710.10": {
+              "description": "Frozen potatoes",
+              "classified-products": {
+                "0710.10.00": "Frozen potatoes"
+              }
+            },
+            "0710.21": {
+              "description": "Frozen peas",
+              "classified-products": {
+                "0710.21.00": "Frozen peas"
+              }
+            },
+            "0710.22": {
+              "description": "Frozen beans",
+              "classified-products": {
+                "0710.22.00": "Frozen beans"
+              }
+            },
+            "0710.29": {
+              "description": "Other frozen legumes",
+              "classified-products": {
+                "0710.29.00": "Frozen other legumes"
+              }
+            },
+            "0710.90": {
+              "description": "Frozen mixtures",
+              "classified-products": {
+                "0710.90.00": "Frozen mixtures of vegetables"
+              }
+            }
+          }
+        }
+      },
+      "0711": {
+          "description": "Vegetables provisionally preserved (e.g. by sulphur dioxide gas, brine, etc.), but unsuitable in that state for immediate consumption",
+          "products": {
+            "0711.20": {
+              "description": "Olives",
+              "classified-products": {
+                "0711.20.00": "Olives, provisionally preserved"
+              }
+            },
+            "0711.40": {
+              "description": "Cucumbers and gherkins",
+              "classified-products": {
+                "0711.40.00": "Cucumbers and gherkins, preserved"
+              }
+            },
+            "0711.51": {
+              "description": "Mushrooms",
+              "classified-products": {
+                "0711.51.00": "Mushrooms, provisionally preserved"
+              }
+            },
+            "0711.59": {
+              "description": "Other fungi",
+              "classified-products": {
+                "0711.59.00": "Other fungi, provisionally preserved"
+              }
+            },
+            "0711.90": {
+              "description": "Other vegetables",
+              "classified-products": {
+                "0711.90.10": "Onions",
+                "0711.90.20": "Garlic",
+                "0711.90.30": "Sweet corn",
+                "0711.90.40": "Bamboo shoots",
+                "0711.90.90": "Other"
+              }
+            }
+          }
+        },
+        "0712": {
+          "description": "Dried vegetables, whole, cut, sliced, broken or in powder, but not further prepared",
+          "products": {
+            "0712.20": {
+              "description": "Onions",
+              "classified-products": {
+                "0712.20.00": "Dried onions"
+              }
+            },
+            "0712.31": {
+              "description": "Garlic",
+              "classified-products": {
+                "0712.31.00": "Dried garlic"
+              }
+            },
+            "0712.32": {
+              "description": "Mushrooms",
+              "classified-products": {
+                "0712.32.00": "Dried mushrooms"
+              }
+            },
+            "0712.33": {
+              "description": "Wood ears (Auricularia spp.)",
+              "classified-products": {
+                "0712.33.00": "Wood ears (Auricularia spp.), dried"
+              }
+            },
+            "0712.39": {
+              "description": "Other fungi",
+              "classified-products": {
+                "0712.39.00": "Other dried fungi"
+              }
+            },
+            "0712.90": {
+              "description": "Other dried vegetables",
+              "classified-products": {
+                "0712.90.10": "Tomatoes",
+                "0712.90.20": "Leguminous vegetables",
+                "0712.90.30": "Cabbage (including broccoli)",
+                "0712.90.40": "Spinach",
+                "0712.90.50": "Green chillies",
+                "0712.90.90": "Other"
+              }
+            }
+          }
+        },
+        "0713": {
+          "description": "Dried leguminous vegetables, shelled, whether or not skinned or split",
+          "products": {
+            "0713.10": {
+              "description": "Peas (Pisum sativum)",
+              "classified-products": {
+                "0713.10.00": "Dried peas"
+              }
+            },
+            "0713.20": {
+              "description": "Chickpeas (garbanzos)",
+              "classified-products": {
+                "0713.20.00": "Dried chickpeas"
+              }
+            },
+            "0713.31": {
+              "description": "Beans of the species Vigna mungo (urad), Vigna radiata (moong)",
+              "classified-products": {
+                "0713.31.10": "Urad (Vigna mungo)",
+                "0713.31.20": "Moong (Vigna radiata)"
+              }
+            },
+            "0713.32": {
+              "description": "Small red (Adzuki) beans (Phaseolus or Vigna angularis)",
+              "classified-products": {
+                "0713.32.00": "Adzuki beans"
+              }
+            },
+            "0713.33": {
+              "description": "Kidney beans, including white",
+              "classified-products": {
+                "0713.33.00": "Kidney beans, white and others"
+              }
+            },
+            "0713.34": {
+              "description": "Bambara beans",
+              "classified-products": {
+                "0713.34.00": "Bambara beans"
+              }
+            },
+            "0713.35": {
+              "description": "Cowpeas",
+              "classified-products": {
+                "0713.35.00": "Cowpeas"
+              }
+            },
+            "0713.39": {
+              "description": "Other beans",
+              "classified-products": {
+                "0713.39.10": "Masur (lentils)",
+                "0713.39.90": "Other beans"
+              }
+            },
+            "0713.40": {
+              "description": "Lentils",
+              "classified-products": {
+                "0713.40.00": "Lentils"
+              }
+            },
+            "0713.50": {
+              "description": "Broad beans and horse beans",
+              "classified-products": {
+                "0713.50.00": "Broad beans and horse beans"
+              }
+            },
+            "0713.90": {
+              "description": "Other leguminous vegetables",
+              "classified-products": {
+                "0713.90.10": "Rajma",
+                "0713.90.90": "Other"
+              }
+            }
+          }
+        },
+        "0714": {
+          "description": "Manioc, arrowroot, salep, Jerusalem artichokes, sweet potatoes and similar roots and tubers with high starch or inulin content",
+          "products": {
+            "0714.10": {
+              "description": "Manioc (cassava)",
+              "classified-products": {
+                "0714.10.00": "Manioc (cassava)"
+              }
+            },
+            "0714.20": {
+              "description": "Sweet potatoes",
+              "classified-products": {
+                "0714.20.00": "Sweet potatoes"
+              }
+            },
+            "0714.30": {
+              "description": "Yams (Dioscorea spp.)",
+              "classified-products": {
+                "0714.30.00": "Yams"
+              }
+            },
+            "0714.40": {
+              "description": "Taro (Colocasia spp.)",
+              "classified-products": {
+                "0714.40.00": "Taro"
+              }
+            },
+            "0714.50": {
+              "description": "Jerusalem artichokes and similar roots",
+              "classified-products": {
+                "0714.50.00": "Jerusalem artichokes"
+              }
+            },
+            "0714.90": {
+              "description": "Other roots and tubers",
+              "classified-products": {
+                "0714.90.10": "Arrowroot",
+                "0714.90.20": "Salep",
+                "0714.90.90": "Other"
+              }
+            }
+          }
+        }
+      }
+      
+    }
+  
+  
+  

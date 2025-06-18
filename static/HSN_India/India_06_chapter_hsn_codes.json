@@ -1,0 +1,131 @@
+{
+  "06": {
+    "description": "Live trees and other plants; bulbs, roots and the like; cut flowers and ornamental foliage",
+    "categories": {
+      "0601": {
+        "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes; chicory plants and roots",
+        "products": {
+          "0601.10": {
+            "description": "Dormant bulbs, tubers etc.",
+            "classified-products": {
+              "0601.10.00": "Dormant bulbs, tubers, corms, crowns, rhizomes, chicory plants/roots"
+            }
+          },
+          "0601.20": {
+            "description": "In growth or in flower; chicory; bulbs/roots",
+            "classified-products": {
+              "0601.20.10": "Bulbs etc., in growth or in flower; horticultural bulbs",
+              "0601.20.21": "Chicory plants",
+              "0601.20.22": "Chicory roots",
+              "0601.20.90": "Other bulbs/roots in growth/flower"
+            }
+          }
+        }
+      },
+      "0602": {
+        "description": "Other live plants (including roots), cuttings and slips; mushroom spawn",
+        "products": {
+          "0602.10": {
+            "description": "Unrooted cuttings and slips",
+            "classified-products": {
+              "0602.10.00": "Unrooted cuttings and slips"
+            }
+          },
+          "0602.20": {
+            "description": "Trees, shrubs and bushes, grafted or not",
+            "classified-products": {
+              "0602.20.10": "Edible fruit or nut trees, grafted or not",
+              "0602.20.20": "Cactus",
+              "0602.20.90": "Other trees, shrubs or bushes"
+            }
+          },
+          "0602.30": {
+            "description": "Rhododendrons and azaleas",
+            "classified-products": {
+              "0602.30.00": "Rhododendrons and azaleas, grafted or not"
+            }
+          },
+          "0602.40": {
+            "description": "Roses",
+            "classified-products": {
+              "0602.40.00": "Roses, grafted or not"
+            }
+          },
+          "0602.90": {
+            "description": "Other live plants",
+            "classified-products": {
+              "0602.90.10": "Mushroom spawn",
+              "0602.90.20": "Flowering plants (excl. roses & rhododendrons)",
+              "0602.90.30": "Tissue culture plants",
+              "0602.90.90": "Other live plants"
+            }
+          }
+        }
+      },
+      "0603": {
+        "description": "Cut flowers and flower buds, fresh or otherwise prepared",
+        "products": {
+          "0603.10": {
+            "description": "Roses",
+            "classified-products": {
+              "0603.11.00": "Cut flowers – Roses"
+            }
+          },
+          "0603.12": {
+            "description": "Carnations",
+            "classified-products": {
+              "0603.12.00": "Cut flowers – Carnations"
+            }
+          },
+          "0603.13": {
+            "description": "Orchids",
+            "classified-products": {
+              "0603.13.00": "Cut flowers – Orchids"
+            }
+          },
+          "0603.14": {
+            "description": "Chrysanthemums",
+            "classified-products": {
+              "0603.14.00": "Cut flowers – Chrysanthemums"
+            }
+          },
+          "0603.15": {
+            "description": "Lilies",
+            "classified-products": {
+              "0603.15.00": "Cut flowers – Lilies (Lilium spp.)"
+            }
+          },
+          "0603.19": {
+            "description": "Other cut flowers",
+            "classified-products": {
+              "0603.19.00": "Cut flowers – Other"
+            }
+          },
+          "0603.90": {
+            "description": "Other flowers",
+            "classified-products": {
+              "0603.90.00": "Cut flowers – Other"
+            }
+          }
+        }
+      },
+      "0604": {
+        "description": "Foliage, branches and other parts of plants, suitable for ornamental purposes",
+        "products": {
+          "0604.20": {
+            "description": "Fresh foliage etc.",
+            "classified-products": {
+              "0604.20.00": "Foliage etc. – Fresh"
+            }
+          },
+          "0604.90": {
+            "description": "Other foliage etc.",
+            "classified-products": {
+              "0604.90.00": "Foliage etc. – Other"
+            }
+          }
+        }
+      }
+    }
+  }
+}

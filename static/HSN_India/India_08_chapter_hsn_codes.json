@@ -1,0 +1,467 @@
+
+{
+  "08": {
+    "description": "Edible fruit and nuts; peel of citrus fruit or melons",
+    "categories": {
+      "0801": {
+        "description": "Coconuts, Brazil nuts and cashew nuts, fresh or dried, whether or not shelled or peeled.",
+        "products": {
+          "0801.10": {
+            "description": "coconuts:",
+            "classified-products": {
+              "0801.11.00": "Coconuts - Desiccated"
+            }
+          },
+          "0801.12": {
+            "description": "Coconuts: in the inner shell (endocarp):",
+            "classified-products": {
+              "0801.12.10": "Coconuts: in the inner shell (endocarp) - Fresh",
+              "0801.12.20": "Coconuts: in the inner shell (endocarp) - Dried",
+              "0801.12.90": "Coconuts: in the inner shell (endocarp) - Other"
+            }
+          },
+          "0801.19": {
+            "description": "Coconuts: Other:",
+            "classified-products": {
+              "0801.19.10": "Coconuts: Other - Fresh",
+              "0801.19.20": "Coconuts: Other - Dried",
+              "0801.19.90": "Coconuts: Other - Other"
+            }
+          },
+          "0801.20": {
+            "description": "Brazil nuts:",
+            "classified-products": {
+              "0801.21.00": "Brazil nuts - In shell",
+              "0801.22.00": "Brazil nuts - Shelled"
+            }
+          },
+          "0801.30": {
+            "description": "cashew nuts:",
+            "classified-products": {
+              "0801.31.00": "Cashew nuts - In shell",
+              "0801.32.10": "Cashew nuts - Cashew kernel, broken",
+              "0801.32.20": "Cashew nuts - Cashew kernel, whole",
+              "0801.32.90": "Cashew nuts - Other"
+            }
+          }
+        }
+      },
+      "0802": {
+        "description": "Other nuts, fresh or dried, whether or not shelled or peeled.",
+        "products": {
+          "0802.10": {
+            "description": "Almonds:",
+            "classified-products": {
+              "0802.11.00": "Almonds - In shell",
+              "0802.12.00": "Almonds - Shelled"
+            }
+          },
+          "0802.20": {
+            "description": "Hazelnuts or filberts (Coryius spp.):",
+            "classified-products": {
+              "0802.21.00": "Hazelnuts or filberts (Coryius spp.) - In shell",
+              "0802.22.00": "Hazelnuts or filberts (Coryius spp.) - Shelled"
+            }
+          },
+          "0802.30": {
+            "description": "walnuts:",
+            "classified-products": {
+              "0802.31.00": "walnuts - In shell",
+              "0802.32.00": "walnuts - Shelled"
+            }
+          },
+          "0802.40": {
+            "description": "Chestnuts (Castanea spp.)",
+            "classified-products": {
+              "0802.41.00": "Chestnuts (Castanea spp.) - In shell",
+              "0802.42.00": "Chestnuts (Castanea spp.) - Shelled"
+            }
+          },
+          "0802.50": {
+            "description": "Pistachios",
+            "classified-products": {
+              "0802.51.00": "Pistachios - In shell",
+              "0802.52.00": "Pistachios - Shelled"
+            }
+          },
+          "0802.60": {
+            "description": "Macadamia nuts",
+            "classified-products": {
+              "0802.61.00": "Macadamia nuts - In shell",
+              "0802.62.00": "Macadamia nuts - Shelled"
+            }
+          },
+          "0802.70": {
+            "description": "Kola nuts (Cola spp.)",
+            "classified-products": {
+              "0802.70.00": "Kola nuts (Cola spp.)"
+            }
+          },
+          "0802.80": {
+            "description": "Areca nuts:",
+            "classified-products": {
+              "0802.80.10": "Areca nuts - Whole",
+              "0802.80.20": "Areca nuts - Split",
+              "0802.80.30": "Areca nuts - Ground",
+              "0802.80.90": "Areca nuts - Other"
+            }
+          },
+          "0802.90": {
+            "description": "Other nuts, fresh or dried, whether or not shelled or peeled-Other",
+            "classified-products": {
+              "0802.90.00": "Other nuts, fresh or dried, whether or not shelled or peeled-Other"
+            }
+          }
+        }
+      },
+      "0803": {
+        "description": "Bananas, including plantains, fresh or dried.",
+        "products": {
+          "0803.10": {
+            "description": "Plantains:",
+            "classified-products": {
+              "0803.10.10": "Plantains-Curry plantain",
+              "0803.10.90": "Plantains-Other"
+            }
+          },
+          "0803.90": {
+            "description": "Bananas-Other",
+            "classified-products": {
+              "0803.90.10": "Bananas - Fresh",
+              "0803.90.90": "Bananas - Other"
+            }
+          }
+        }
+      },
+      "0804": {
+        "description": "Dates, figs, pineapples, avocados, guavas, mangoes and mangosteens, fresh or dried.",
+        "products": {
+          "0804.10": {
+            "description": "Dates",
+            "classified-products": {
+              "0804.10.10": "Dates - Fresh",
+              "0804.10.20": "Dates - Soft",
+              "0804.10.30": "Dates - Hard",
+              "0804.10.90": "Dates - Other"
+            }
+          },
+          "0804.20": {
+            "description": "Figs",
+            "classified-products": {
+              "0804.20.10": "Figs - Fresh",
+              "0804.20.90": "Figs - Other"
+            }
+          },
+          "0804.30": {
+            "description": "Pineapples",
+            "classified-products": {
+              "0804.30.00": "Pineapples"
+            }
+          },
+          "0804.40": {
+            "description": "Avocados",
+            "classified-products": {
+              "0804.40.00": "Avocados"
+            }
+          },
+          "0804.50": {
+            "description": "Guavas, mangoes and mangosteens",
+            "classified-products": {
+              "0804.50.10": "Guavas",
+              "0804.50.20": "Mangoes, fresh",
+              "0804.50.30": "Mangoes, dried",
+              "0804.50.40": "Mango pulp",
+              "0804.50.90": "Guavas, mangoes and mangosteens - Other"
+            }
+          }
+        }
+      },
+      "0805": {
+        "description": "Citrus fruit, fresh or dried.",
+        "products": {
+          "0805.10": {
+            "description": "Oranges",
+            "classified-products": {
+              "0805.10.00": "Oranges"
+            }
+          },
+          "0805.20": {
+            "description": "Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybrids",
+            "classified-products": {
+              "0805.21.00": "Mandarins (including tangerines and satsumas)",
+              "0805.22.00": "Clementines ",
+              "0805.29.00": "Mandarins (including tangerines and satsumas); clementines, wilkings and similar citrus hybridsOther"
+            }
+          },
+          "0805.40": {
+            "description": "Grapefruit",
+            "classified-products": {
+              "0805.40.00": "Grapefruit"
+            }
+          },
+          "0805.50": {
+            "description": "Lemons (Citrus limon, Citrus limonum) and limes (Citrus aurantifolia, Citrus latifolia)",
+            "classified-products": {
+              "0805.50.00": "Lemons (Citrus limon, Citrus limonum) and limes (Citrus aurantifolia, Citrus latifolia)"
+            }
+          },
+          "0805.90": {
+            "description": "Citrus fruit, fresh or dried-Other",
+            "classified-products": {
+              "0805.90.00": "Citrus fruit, fresh or dried-Other"
+            }
+          }
+        }
+      },
+      "0806": {
+        "description": "Grapes, fresh or dried.",
+        "products": {
+          "0806.10": {
+            "description": "Grapes - Fresh",
+            "classified-products": {
+              "0806.10.00": "Grapes - Fresh"
+            }
+          },
+          "0806.20": {
+            "description": "Grapes - Dried",
+            "classified-products": {
+              "0806.20.10": "Grapes - Dried - Raisins",
+              "0806.20.90": "Grapes - Dried - Other"
+            }
+          }
+        }
+      },
+      "0807": {
+        "description": "Melons (including watermelons) and papaws (papayas), fresh.",
+        "products": {
+          "0807.11": {
+            "description": "Watermelons",
+            "classified-products": {
+              "0807.11.00": "Watermelons"
+            }
+          },
+          "0807.19": {
+            "description": "Melons (including watermelons) and papaws (papayas), fresh-Other",
+            "classified-products": {
+              "0807.19.00": "Melons (including watermelons) and papaws (papayas), fresh-Other"
+            }
+          },
+          "0807.20": {
+            "description": "Papaws (papayas)",
+            "classified-products": {
+              "0807.20.00": "Papaws"
+            }
+          }
+        }
+      },
+      "0808": {
+        "description": "Apples, pears and quinces, fresh.",
+        "products": {
+          "0808.10": {
+            "description": "Apples",
+            "classified-products": {
+              "0808.10.00": "Apples"
+            }
+          },
+          "0808.30": {
+            "description": "Pears",
+            "classified-products": {
+              "0808.30.00": "Pears"
+            }
+          },
+          "0808.40": {
+            "description": "Quinces",
+            "classified-products": {
+              "0808.40.00": "Quinces"
+            }
+          }
+        }
+      },
+      "0809": {
+        "description": "Apricots, cherries, peaches (including nectarines), plums and sloes, fresh.",
+        "products": {
+          "0809.10": {
+            "description": "Apricots",
+            "classified-products": {
+              "0809.10.00": "Apricots"
+            }
+          },
+          "0809.20": {
+            "description": "Cherries",
+            "classified-products": {
+              "0809.21.00": "Cherries - Sour (Prunus cerasus)",
+              "0809.29.00": "Cherries - Other"
+            }
+          },
+          "0809.30": {
+            "description": "Peaches, including nectarines",
+            "classified-products": {
+              "0809.30.00": "Peaches, including nectarines"
+            }
+          },
+          "0809.40": {
+            "description": "Plums and sloes",
+            "classified-products": {
+              "0809.40.00": "Plums and sloes"
+            }
+          }
+        }
+      },
+      "0810": {
+        "description": "Other fruits, fresh",
+        "products": {
+          "0810.10": {
+            "description": "Strawberries",
+            "classified-products": {
+              "0810.10.00": "Strawberries"
+            }
+          },
+          "0810.20": {
+            "description": "Raspberries, blackberries, mulberries and loganberries",
+            "classified-products": {
+              "0810.20.00": "Raspberries"
+            }
+          },
+          "0810.30": {
+            "description": "Black, white or red currants and gooseberries",
+            "classified-products": {
+              "0810.30.00": "Black currants"
+            }
+          },
+          "0810.40": {
+            "description": "Cranberries, bilberries and other fruits of the genus Vaccinium",
+            "classified-products": {
+              "0810.40.00": "Cranberries"
+            }
+          },
+          "0810.50": {
+            "description": "Kiwi fruit",
+            "classified-products": {
+              "0810.50.00": "Kiwi fruit"
+            }
+          },
+          "0810.60": {
+            "description": "Durians",
+            "classified-products": {
+              "0810.60.00": "Durians"
+            }
+          },
+          "0810.70": {
+            "description": "Persimmons",
+            "classified-products": {
+              "0810.70.00": "Persimmons"
+            }
+          },
+          "0810.90": {
+            "description": "Other fruits, fresh-Other",
+            "classified-products": {
+              "0810.90.10": "Pomegranates",
+              "0810.90.20": "Tamarind, fresh",
+              "0810.90.30": "Sapota (chico)",
+              "0810.90.40": "Custard-apple (ata)",
+              "0810.90.50": "Bore",
+              "0810.90.60": "Litchi",
+              "0810.90.90": "Other"
+            }
+          }
+        }
+      },
+      "0811": {
+        "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter.",
+        "products": {
+          "0811.10": {
+            "description": "Strawberries",
+            "classified-products": {
+              "0811.10.10": "Strawberries - Containing added sugar",
+              "0811.10.20": "Strawberries - Not containing added sugar",
+              "0811.10.90": "Strawberries - Other"
+            }
+          },
+          "0811.20": {
+            "description": "Raspberries, blackberries, mulberries, loganberries, black, white or red currants and gooseberries",
+            "classified-products": {
+              "0811.20.10": "Raspberries, blackberries, mulberries, loganberries, black, white or red currants and gooseberries - Containing added sugar",
+              "0811.20.20": "Raspberries, blackberries, mulberries, loganberries, black, white or red currants and gooseberries - Not containing added sugar",
+              "0811.20.90": "Raspberries, blackberries, mulberries, loganberries, black, white or red currants and gooseberries - Other"
+            }
+          },
+          "0811.90": {
+            "description": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter-Other",
+            "classified-products": {
+              "0811.90.10": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matter-Containing added sugar",
+              "0811.90.90": "Fruit and nuts, uncooked or cooked by steaming or boiling in water, frozen, whether or not containing added sugar or other sweetening matterOther"
+            }
+          }
+        }
+      },
+      "0812": {
+        "description": "Fruit and nuts, provisionally preserved (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption.",
+        "products": {
+          "0812.10": {
+            "description": "Cherries",
+            "classified-products": {
+              "0812.10.00": "Cherries"
+            }
+          },
+          "0812.90": {
+            "description": "Fruit and nuts, provisionally preserved (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption-Other",
+            "classified-products": {
+              "0812.90.10": "Mango slices in brine",
+              "0812.90.90": "Fruit and nuts, provisionally preserved (for example, by sulphur dioxide gas, in brine, in sulphur water or in other preservative solutions), but unsuitable in that state for immediate consumption-Other"
+            }
+          }
+        }
+      },
+      "0813": {
+        "description": "Fruit, dried, other than that of headings 0801 to 0806; mixtures of nuts or dried fruits of this Chapter.",
+        "products": {
+          "0813.10": {
+            "description": "Apricots",
+            "classified-products": {
+              "0813.10.00": "Apricots"
+            }
+          },
+          "0813.20": {
+            "description": "Prunes",
+            "classified-products": {
+              "0813.20.00": "Prunes"
+            }
+          },
+          "0813.30": {
+            "description": "Apples",
+            "classified-products": {
+              "0813.30.00": "Apples"
+            }
+          },
+          "0813.40": {
+            "description": "Other fruit",
+            "classified-products": {
+              "0813.40.10": "Tamarind, dried",
+              "0813.40.20": "Singoda whole",
+              "0813.40.90": "Other fruit-Other"
+            }
+          },
+          "0813.50": {
+            "description": "Mixtures of nuts or dried Fruits of this Chapter",
+            "classified-products": {
+              "0813.50.10": "Mixtures of nuts",
+              "0813.50.20": "Mixtures of dried fruits"
+            }
+          }
+        }
+      },
+      "0814": {
+        "description": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions.",
+        "products": {
+          "0814.00": {
+            "description": "Peel of citrus fruit or melons (including watermelons), fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions.",
+            "classified-products": {
+              "0814.00.00": "Peel of citrus fruit or melons, fresh, frozen, dried or provisionally preserved in brine, in sulphur water or in other preservative solutions"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
