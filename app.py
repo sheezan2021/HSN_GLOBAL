@@ -5,8 +5,16 @@ import json
 from pathlib import Path
 import re
 
-app = Flask(__name__)
+import os
+
+app = Flask(__name__, 
+            static_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static'),
+            static_url_path='',
+            template_folder='templates')
 CORS(app)
+
+# Ensure the static folder exists
+os.makedirs(app.static_folder, exist_ok=True)
 
 @app.route("/")
 def index():
