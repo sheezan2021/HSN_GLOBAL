@@ -5,15 +5,15 @@
       "src": "wsgi.py",
       "use": "@vercel/python",
       "config": {
-        "maxLambdaSize": "15mb",
-        "includeFiles": [
-          "static/**",
-          "templates/**"
-        ]
+        "maxLambdaSize": "15mb"
       }
     },
     {
       "src": "static/**",
+      "use": "@vercel/static"
+    },
+    {
+      "src": "templates/**",
       "use": "@vercel/static"
     }
   ],

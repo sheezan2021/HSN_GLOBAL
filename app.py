@@ -7,14 +7,24 @@ import re
 
 import os
 
+# Initialize Flask app
 app = Flask(__name__, 
             static_folder=os.path.join(os.path.dirname(os.path.abspath(__file__)), 'static'),
             static_url_path='',
             template_folder='templates')
+
+# Enable CORS
 CORS(app)
 
 # Ensure the static folder exists
 os.makedirs(app.static_folder, exist_ok=True)
+
+# Add cache control headers
+@app.after_request
+def add_header(response):
+    if 'Cache-Control' not in response.headers:
+        response.headers['Cache-Control'] = 'public, max-age=300'  # 5 minutes cache
+    return response
 
 @app.route("/")
 def index():
