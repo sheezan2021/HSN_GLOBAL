@@ -1,0 +1,172 @@
+{
+    "04": {
+      "description": "Dairy produce; birds’ eggs; natural honey; edible products of animal origin, not elsewhere specified or included",
+      "categories": {
+        "0401": {
+          "description": "Milk and cream, not concentrated nor containing added sugar or other sweetening matter",
+          "products": {
+            "040110": {
+              "description": "Milk and cream, of a fat content, by weight, not exceeding 1%",
+              "classified-products": {
+                "04011010": "Milk, not concentrated, fat content <=1%",
+                "04011090": "Cream, fat content <=1%"
+              }
+            },
+            "040120": {
+              "description": "Milk and cream, of a fat content, by weight, exceeding 1% but not exceeding 6%",
+              "classified-products": {
+                "04012010": "Milk, fat content >1% and <=6%",
+                "04012090": "Cream, fat content >1% and <=6%"
+              }
+            },
+            "040130": {
+              "description": "Milk and cream, of a fat content, by weight, exceeding 6%",
+              "classified-products": {
+                "04013010": "Milk, fat content >6%",
+                "04013090": "Cream, fat content >6%"
+              }
+            }
+          }
+        },
+        "0402": {
+          "description": "Milk and cream, concentrated or containing added sugar or other sweetening matter",
+          "products": {
+            "040210": {
+              "description": "Milk and cream, concentrated or containing added sugar or other sweetening matter",
+              "classified-products": {
+                "04021010": "Milk and cream, concentrated",
+                "04021090": "Milk and cream with added sugar or sweetening"
+              }
+            }
+          }
+        },
+        "0403": {
+          "description": "Buttermilk, curdled milk and cream, yogurt, kephir and other fermented or acidified milk and cream, whether or not concentrated or containing added sugar or other sweetening matter or flavoured or containing added fruit, nuts or cocoa",
+          "products": {
+            "040310": {
+              "description": "Yogurt",
+              "classified-products": {
+                "04031010": "Natural yogurt",
+                "04031020": "Flavoured or containing fruit, nuts or cocoa"
+              }
+            },
+            "040390": {
+              "description": "Other fermented or acidified milk and cream",
+              "classified-products": {
+                "04039010": "Buttermilk",
+                "04039020": "Curdled milk and cream",
+                "04039090": "Other-Other fermented or acidified milk and cream"
+              }
+            }
+          }
+        },
+        "0404": {
+          "description": "Whey, whether or not concentrated or containing added sugar or other sweetening matter; products consisting of natural milk constituents, whether or not containing added sugar or other sweetening matter, not elsewhere specified or included",
+          "products": {
+            "040410": {
+              "description": "Whey and modified whey",
+              "classified-products": {
+                "04041010": "Whey, not concentrated",
+                "04041020": "Concentrated whey",
+                "04041030": "Modified whey"
+              }
+            },
+            "040490": {
+              "description": "Other products consisting of natural milk constituents",
+              "classified-products": {
+                "04049010": "Milk albumin",
+                "04049090": "Other-Other products consisting of natural milk constituents"
+              }
+            }
+          }
+        },
+        "0405": {
+          "description": "Butter and other fats and oils derived from milk; dairy spreads",
+          "products": {
+            "040510": {
+              "description": "Butter",
+              "classified-products": {
+                "04051010": "Butter",
+                "04051090": "Other fats and oils derived from milk"
+              }
+            },
+            "040520": {
+              "description": "Dairy spreads",
+              "classified-products": {
+                "04052010": "Dairy spreads"
+              }
+            }
+          }
+        },
+        "0406": {
+          "description": "Cheese and curd",
+          "products": {
+            "040610": {
+              "description": "Fresh cheese, including whey cheese, and curd",
+              "classified-products": {
+                "04061010": "Fresh cheese",
+                "04061090": "Curd"
+              }
+            },
+            "040620": {
+              "description": "Grated or powdered cheese, of all kinds",
+              "classified-products": {
+                "04062010": "Grated cheese",
+                "04062090": "Powdered cheese"
+              }
+            },
+            "040630": {
+              "description": "Processed cheese, not grated or powdered",
+              "classified-products": {
+                "04063010": "Processed cheese, not grated or powdered"
+              }
+            },
+            "040640": {
+              "description": "Blue-veined cheese and other cheese containing veins produced by Penicillium roqueforti",
+              "classified-products": {
+                "04064010": "Blue-veined cheese",
+                "04064090": "Other cheese with Penicillium roqueforti"
+              }
+            },
+            "040690": {
+              "description": "Other cheese",
+              "classified-products": {
+                "04069010": "Other cheese"
+              }
+            }
+          }
+        },
+        "0407": {
+          "description": "Birds' eggs, in shell, fresh, preserved or cooked",
+          "products": {
+            "040700": {
+              "description": "Birds' eggs, in shell, fresh, preserved or cooked",
+              "classified-products": {
+                "04070010": "Fresh eggs",
+                "04070090": "Preserved or cooked eggs"
+              }
+            }
+          }
+        },
+        "0408": {
+          "description": "Edible products of animal origin, not elsewhere specified or included",
+          "products": {
+            "040811": {
+              "description": "Edible offal of bovine animals, swine, sheep, goats, horses, asses, mules or hinnies",
+              "classified-products": {
+                "04081110": "Bovine offal",
+                "04081190": "Other edible offal"
+              }
+            },
+            "040819": {
+              "description": "Other edible products of animal origin",
+              "classified-products": {
+                "04081910": "Other edible products of animal origin"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

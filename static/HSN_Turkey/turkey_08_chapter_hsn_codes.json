@@ -1,0 +1,81 @@
+{
+    "08": {
+      "description": "Edible fruit and nuts; peel of citrus fruit or melons",
+      "categories": {
+        "0801": {
+          "description": "Coconuts, Brazil nuts & cashew nuts, fresh or dried",
+          "products": {
+            "080110": {
+              "description": "Coconuts",
+              "classified-products": {
+                "08011100": "Coconuts — Desiccated",
+                "0801110010": "Coconuts — Desiccated, Packaged ≤5kg",
+                "0801110090": "Coconuts — Desiccated, Other"
+              }
+            },
+            "080112": {
+              "description": "Coconuts in inner shell",
+              "classified-products": {
+                "08011210": "Fresh",
+                "0801121010": "Fresh — Turkey Grade A",
+                "08011220": "Dried",
+                "0801122010": "Dried — Unsweetened",
+                "08011290": "Other",
+                "0801129010": "Other — For Oil Extraction"
+              }
+            },
+            "080130": {
+              "description": "Cashew nuts",
+              "classified-products": {
+                "08013100": "Cashew nuts — In shell",
+                "0801310010": "Cashew nuts — In shell, Large",
+                "08013210": "Kernel — Broken",
+                "0801321010": "Kernel — Broken, Grade B",
+                "08013220": "Kernel — Whole",
+                "0801322010": "Kernel — Whole, Grade A",
+                "08013290": "Kernel — Other",
+                "0801329010": "Kernel — Other, Processed"
+              }
+            }
+          }
+        },
+        "0802": {
+          "description": "Other nuts, fresh or dried",
+          "products": {
+            "080220": {
+              "description": "Hazelnuts (Corylus spp)",
+              "classified-products": {
+                "08022100": "Hazelnuts — In shell",
+                "0802210010": "Hazelnuts — In shell, Jumbo",
+                "08022200": "Hazelnuts — Shelled",
+                "0802220010": "Hazelnuts — Shelled, Blanched"
+              }
+            },
+            "080250": {
+              "description": "Pistachios",
+              "classified-products": {
+                "08025100": "Pistachios — In shell",
+                "0802510010": "Pistachios — In shell, Roasted",
+                "08025200": "Pistachios — Shelled",
+                "0802520010": "Pistachios — Shelled, Salted"
+              }
+            }
+          }
+        },
+        "0808": {
+          "description": "Apples, pears and quinces, fresh",
+          "products": {
+            "080810": {
+              "description": "Apples",
+              "classified-products": {
+                "08081000": "Apples",
+                "0808100010": "Apples — Turkish Gala",
+                "0808100020": "Apples — Turkish Granny Smith"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

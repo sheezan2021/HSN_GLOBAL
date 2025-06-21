@@ -5,19 +5,19 @@
       "0601": {
         "description": "Bulbs, tubers, tuberous roots, corms, crowns and rhizomes; chicory plants and roots",
         "products": {
-          "0601.10": {
-            "description": "Dormant bulbs, tubers etc.",
+          "060110": {
+            "description": "Dormant bulbs, tubers etc",
             "classified-products": {
-              "0601.10.00": "Dormant bulbs, tubers, corms, crowns, rhizomes, chicory plants/roots"
+              "06011000": "Dormant bulbs, tubers, corms, crowns, rhizomes, chicory plants/roots"
             }
           },
-          "0601.20": {
+          "060120": {
             "description": "In growth or in flower; chicory; bulbs/roots",
             "classified-products": {
-              "0601.20.10": "Bulbs etc., in growth or in flower; horticultural bulbs",
-              "0601.20.21": "Chicory plants",
-              "0601.20.22": "Chicory roots",
-              "0601.20.90": "Other bulbs/roots in growth/flower"
+              "06012010": "Bulbs etc, in growth or in flower; horticultural bulbs",
+              "06012021": "Chicory plants",
+              "06012022": "Chicory roots",
+              "06012090": "Other bulbs/roots in growth/flower"
             }
           }
         }
@@ -25,39 +25,39 @@
       "0602": {
         "description": "Other live plants (including roots), cuttings and slips; mushroom spawn",
         "products": {
-          "0602.10": {
+          "060210": {
             "description": "Unrooted cuttings and slips",
             "classified-products": {
-              "0602.10.00": "Unrooted cuttings and slips"
+              "06021000": "Unrooted cuttings and slips"
             }
           },
-          "0602.20": {
+          "060220": {
             "description": "Trees, shrubs and bushes, grafted or not",
             "classified-products": {
-              "0602.20.10": "Edible fruit or nut trees, grafted or not",
-              "0602.20.20": "Cactus",
-              "0602.20.90": "Other trees, shrubs or bushes"
+              "06022010": "Edible fruit or nut trees, grafted or not",
+              "06022020": "Cactus",
+              "06022090": "Other trees, shrubs or bushes"
             }
           },
-          "0602.30": {
+          "060230": {
             "description": "Rhododendrons and azaleas",
             "classified-products": {
-              "0602.30.00": "Rhododendrons and azaleas, grafted or not"
+              "06023000": "Rhododendrons and azaleas, grafted or not"
             }
           },
-          "0602.40": {
+          "060240": {
             "description": "Roses",
             "classified-products": {
-              "0602.40.00": "Roses, grafted or not"
+              "06024000": "Roses, grafted or not"
             }
           },
-          "0602.90": {
+          "060290": {
             "description": "Other live plants",
             "classified-products": {
-              "0602.90.10": "Mushroom spawn",
-              "0602.90.20": "Flowering plants (excl. roses & rhododendrons)",
-              "0602.90.30": "Tissue culture plants",
-              "0602.90.90": "Other live plants"
+              "06029010": "Mushroom spawn",
+              "06029020": "Flowering plants (excl roses & rhododendrons)",
+              "06029030": "Tissue culture plants",
+              "06029090": "Other live plants"
             }
           }
         }
@@ -65,46 +65,46 @@
       "0603": {
         "description": "Cut flowers and flower buds, fresh or otherwise prepared",
         "products": {
-          "0603.10": {
+          "060310": {
             "description": "Roses",
             "classified-products": {
-              "0603.11.00": "Cut flowers – Roses"
+              "06031100": "Cut flowers – Roses"
             }
           },
-          "0603.12": {
+          "060312": {
             "description": "Carnations",
             "classified-products": {
-              "0603.12.00": "Cut flowers – Carnations"
+              "06031200": "Cut flowers – Carnations"
             }
           },
-          "0603.13": {
+          "060313": {
             "description": "Orchids",
             "classified-products": {
-              "0603.13.00": "Cut flowers – Orchids"
+              "06031300": "Cut flowers – Orchids"
             }
           },
-          "0603.14": {
+          "060314": {
             "description": "Chrysanthemums",
             "classified-products": {
-              "0603.14.00": "Cut flowers – Chrysanthemums"
+              "06031400": "Cut flowers – Chrysanthemums"
             }
           },
-          "0603.15": {
+          "060315": {
             "description": "Lilies",
             "classified-products": {
-              "0603.15.00": "Cut flowers – Lilies (Lilium spp.)"
+              "06031500": "Cut flowers – Lilies (Lilium spp)"
             }
           },
-          "0603.19": {
+          "060319": {
             "description": "Other cut flowers",
             "classified-products": {
-              "0603.19.00": "Cut flowers – Other"
+              "06031900": "Cut flowers – Other"
             }
           },
-          "0603.90": {
+          "060390": {
             "description": "Other flowers",
             "classified-products": {
-              "0603.90.00": "Cut flowers – Other"
+              "06039000": "Cut flowers – Other"
             }
           }
         }
@@ -112,16 +112,16 @@
       "0604": {
         "description": "Foliage, branches and other parts of plants, suitable for ornamental purposes",
         "products": {
-          "0604.20": {
-            "description": "Fresh foliage etc.",
+          "060420": {
+            "description": "Fresh foliage etc",
             "classified-products": {
-              "0604.20.00": "Foliage etc. – Fresh"
+              "06042000": "Fresh foliage etc"
             }
           },
-          "0604.90": {
-            "description": "Other foliage etc.",
+          "060490": {
+            "description": "Other foliage etc",
             "classified-products": {
-              "0604.90.00": "Foliage etc. – Other"
+              "06049000": "Other-Foliage etc"
             }
           }
         }

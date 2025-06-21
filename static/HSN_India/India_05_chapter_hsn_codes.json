@@ -1,0 +1,121 @@
+{
+    "05": {
+      "description": "Products of animal origin, not elsewhere specified or included",
+      "categories": {
+        "0501": {
+          "description": "Human hair, unworked, whether or not washed or scoured; waste of human hair",
+          "products": {
+            "050110": {
+              "description": "Human hair, unworked, not carded or combed",
+              "classified-products": {
+                "05011010": "Human hair, unworked, not carded or combed",
+                "05011090": "Other human hair, unworked"
+              }
+            },
+            "050190": {
+              "description": "Waste of human hair",
+              "classified-products": {
+                "05019010": "Waste of human hair",
+                "05019090": "Other waste of human hair"
+              }
+            }
+          }
+        },
+        "0502": {
+          "description": "Pig bristles and hair; badger hair and other brush making hair; waste of such bristles or hair",
+          "products": {
+            "050210": {
+              "description": "Pig bristles and hair",
+              "classified-products": {
+                "05021010": "Pig bristles",
+                "05021090": "Pig hair"
+              }
+            },
+            "050290": {
+              "description": "Other brush making hair; waste",
+              "classified-products": {
+                "05029010": "Badger hair",
+                "05029020": "Other brush making hair",
+                "05029090": "Waste of such bristles or hair"
+              }
+            }
+          }
+        },
+        "0503": {
+          "description": "Horsehair and horsehair waste, whether or not put up as a layer with or without supporting material",
+          "products": {
+            "050300": {
+              "description": "Horsehair and horsehair waste",
+              "classified-products": {
+                "05030010": "Horsehair",
+                "05030090": "Horsehair waste"
+              }
+            }
+          }
+        },
+        "0504": {
+          "description": "Guts, bladders and stomachs of animals (other than fish), whole and pieces thereof, fresh, chilled, frozen, salted, in brine, dried or smoked",
+          "products": {
+            "050400": {
+              "description": "Guts, bladders and stomachs of animals",
+              "classified-products": {
+                "05040010": "Guts, bladders and stomachs, whole",
+                "05040090": "Guts, bladders and stomachs, pieces"
+              }
+            }
+          }
+        },
+        "0505": {
+          "description": "Bird skins and other bird parts, feathers and down, not further worked than cleaned, disinfected or treated for preservation; powder and waste of feathers or parts of feathers",
+          "products": {
+            "050510": {
+              "description": "Feathers of a kind used for stuffing; down",
+              "classified-products": {
+                "05051010": "Feathers and down, not dyed or painted",
+                "05051020": "Feathers and down, dyed or painted"
+              }
+            },
+            "050590": {
+              "description": "Other bird skins and parts",
+              "classified-products": {
+                "05059010": "Bird skins other than feathers",
+                "05059090": "Powder and waste of feathers"
+              }
+            }
+          }
+        },
+        "0506": {
+          "description": "Bones and horn-cores, unworked, defatted, simply prepared (but not cut to shape), powder and waste",
+          "products": {
+            "050610": {
+              "description": "Bones",
+              "classified-products": {
+                "05061010": "Bones, unworked",
+                "05061090": "Bones, defatted or simply prepared"
+              }
+            },
+            "050620": {
+              "description": "Horn-cores",
+              "classified-products": {
+                "05062010": "Horn-cores, unworked",
+                "05062090": "Horn-cores, defatted or simply prepared"
+              }
+            },
+            "050630": {
+              "description": "Antlers and sheds, unworked",
+              "classified-products": {
+                "05063010": "Antlers and sheds, unworked"
+              }
+            },
+            "050690": {
+              "description": "Powder and waste of bones, horn-cores, antlers and sheds",
+              "classified-products": {
+                "05069010": "Powder and waste"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
