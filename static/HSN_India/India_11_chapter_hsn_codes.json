@@ -1,0 +1,173 @@
+{
+    "11": {
+      "description": "Products of milling; malt; starches; inulin; wheat gluten",
+      "categories": {
+        "1101": {
+          "description": "Wheat or meslin flour",
+          "products": {
+            "110100": {
+              "description": "Wheat or meslin flour",
+              "classified-products": {
+                "11010010": "Wheat or meslin flour – Whole meal",
+                "11010020": "Wheat or meslin flour – White"
+              }
+            }
+          }
+        },
+        "1102": {
+          "description": "Cereal flours (other than wheat or meslin flour)",
+          "products": {
+            "110210": {
+              "description": "Rye flour",
+              "classified-products": {
+                "11021000": "Rye flour"
+              }
+            },
+            "110220": {
+              "description": "Maize (corn) flour",
+              "classified-products": {
+                "11022000": "Maize flour"
+              }
+            },
+            "110230": {
+              "description": "Rice flour",
+              "classified-products": {
+                "11023000": "Rice flour"
+              }
+            },
+            "110240": {
+              "description": "Buckwheat, millet, sorghum flour and other cereals",
+              "classified-products": {
+                "11024010": "Buckwheat flour",
+                "11024020": "Millet flour",
+                "11024030": "Sorghum flour",
+                "11024090": "Other cereal flour"
+              }
+            }
+          }
+        },
+        "1103": {
+          "description": "Cereal groats, meal, and pellets",
+          "products": {
+            "110311": {
+              "description": "Cereal grains  or products, for human consumption",
+              "classified-products": {
+                "11031110": "Groats of oats",
+                "11031120": "Groats of wheat or meslin",
+                "11031130": "Groats of maize",
+                "11031190": "Groats of other cereals"
+              }
+            },
+            "110312": {
+              "description": "Pellets of cereals for animal feed",
+              "classified-products": {
+                "11031200": "Cereal pellets"
+              }
+            }
+          }
+        },
+        "1104": {
+          "description": "Cereal (excluding corn) sharps and pellets",
+          "products": {
+            "110410": {
+              "description": "Sharps of wheat or meslin",
+              "classified-products": {
+                "11041000": "Sharps"
+              }
+            }
+          }
+        },
+        "1105": {
+          "description": "Flour, meal of the dried leguminous vegetables",
+          "products": {
+            "110510": {
+              "description": "Flour, meal of peas, beans, lentils and similar leguminous vegetables",
+              "classified-products": {
+                "11051010": "Pea flour/meal",
+                "11051020": "Bean flour/meal",
+                "11051030": "Lentil flour/meal",
+                "11051090": "Other legume flour/meal"
+              }
+            }
+          }
+        },
+        "1106": {
+          "description": "Flours, meals of oilseeds, oil nuts etc.",
+          "products": {
+            "110620": {
+              "description": "Flours and meals of oilseed or oleaginous fruits",
+              "classified-products": {
+                "11062010": "Soybean meal",
+                "11062090": "Other oilseed meals"
+              }
+            }
+          }
+        },
+        "1107": {
+          "description": "Malt, whether or not roasted",
+          "products": {
+            "110710": {
+              "description": "Malt, not roasted",
+              "classified-products": {
+                "11071011": "Barley malt – For brewing",
+                "11071019": "Other barley malt"
+              }
+            },
+            "110720": {
+              "description": "Malt, roasted",
+              "classified-products": {
+                "11072000": "Roasted malt"
+              }
+            }
+          }
+        },
+        "1108": {
+          "description": "Starches; inulin",
+          "products": {
+            "110810": {
+              "description": "Wheat starch",
+              "classified-products": {
+                "11081010": "Wheat starch"
+              }
+            },
+            "110821": {
+              "description": "Maize (corn) starch",
+              "classified-products": {
+                "11082100": "Maize starch"
+              }
+            },
+            "110822": {
+              "description": "Potato starch",
+              "classified-products": {
+                "11082200": "Potato starch"
+              }
+            },
+            "110823": {
+              "description": "Cassava (tapioca) starch",
+              "classified-products": {
+                "11082300": "Cassava starch"
+              }
+            },
+            "110824": {
+              "description": "Wheat gluten",
+              "classified-products": {
+                "11082400": "Wheat gluten"
+              }
+            }
+          }
+        },
+        "1109": {
+          "description": "Wheat gluten; wheat or meslin gluten",
+          "products": {
+            "110900": {
+              "description": "Gluten of wheat or meslin",
+              "classified-products": {
+                "11090000": "Wheat gluten"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

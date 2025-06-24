@@ -1,0 +1,235 @@
+{
+    "10": {
+      "description": "Cereals",
+      "categories": {
+        "1001": {
+          "description": "Wheat and meslin",
+          "products": {
+            "100111": {
+              "description": "Durum wheat – Seed",
+              "classified-products": {
+                "100111000000": "Durum wheat seed"
+              }
+            },
+            "100119": {
+              "description": "Durum wheat – Other",
+              "classified-products": {
+                "100119000000": "Durum wheat – Other"
+              }
+            },
+            "100191": {
+              "description": "Common wheat & meslin – Seed",
+              "classified-products": {
+                "100191000000": "Common wheat/meslin seed"
+              }
+            },
+            "100199": {
+              "description": "Common wheat & meslin – Other",
+              "classified-products": {
+                "100199000000": "Common wheat/meslin – Other"
+              }
+            }
+          }
+        },
+        "1002": {
+          "description": "Rye",
+          "products": {
+            "100210": {
+              "description": "Rye – Seed",
+              "classified-products": {
+                "100210000000": "Rye seed"
+              }
+            },
+            "100290": {
+              "description": "Rye – Other",
+              "classified-products": {
+                "100290000000": "Rye – Other"
+              }
+            }
+          }
+        },
+        "1003": {
+          "description": "Barley",
+          "products": {
+            "100310": {
+              "description": "Barley – Seed",
+              "classified-products": {
+                "100310000000": "Barley seed"
+              }
+            },
+            "100390": {
+              "description": "Barley – Other",
+              "classified-products": {
+                "100390000000": "Barley – Other"
+              }
+            }
+          }
+        },
+        "1004": {
+          "description": "Oats",
+          "products": {
+            "100410": {
+              "description": "Oats – Seed",
+              "classified-products": {
+                "100410000000": "Oats seed"
+              }
+            },
+            "100490": {
+              "description": "Oats – Other",
+              "classified-products": {
+                "100490000000": "Oats – Other"
+              }
+            }
+          }
+        },
+        "1005": {
+          "description": "Maize (corn)",
+          "products": {
+            "100510": {
+              "description": "Maize – Seed",
+              "classified-products": {
+                "100510130000": "Three-cross hybrid seed",
+                "100510150000": "Simple hybrid seed",
+                "100510180000": "Other maize seed",
+                "100510900000": "Maize seed – Other"
+              }
+            },
+            "100590": {
+              "description": "Maize – Other",
+              "classified-products": {
+                "100590110000": "Popcorn maize",
+                "100590190000": "Maize – Other"
+              }
+            }
+          }
+        },
+        "1006": {
+          "description": "Rice",
+          "products": {
+            "100610": {
+              "description": "Rice in husk (paddy)",
+              "classified-products": {
+                "100610100000": "Seed paddy",
+                "100610300000": "Round grain paddy",
+                "100610500000": "Medium grain paddy",
+                "100610710000": "Long grain paddy (L/W 2–3)",
+                "100610790000": "Very long grain paddy (L/W ≥3)"
+              }
+            },
+            "100620": {
+              "description": "Husked (brown) rice",
+              "classified-products": {
+                "100620110000": "Round grain brown rice",
+                "100620130000": "Medium grain brown rice",
+                "100620150000": "Long grain brown rice (L/W 2–3)",
+                "100620170000": "Very long brown rice (L/W ≥3)",
+                "100620920000": "Round grain – Other",
+                "100620940000": "Medium grain – Other",
+                "100620960000": "Long grain – Other",
+                "100620980000": "Very long – Other"
+              }
+            },
+            "100630": {
+              "description": "Semi‑milled or wholly milled rice",
+              "classified-products": {
+                "100630210000": "Round grain milled rice",
+                "100630230000": "Medium grain milled rice",
+                "100630250000": "Long grain milled rice (L/W 2–3)",
+                "100630270000": "Very long grain milled rice (L/W ≥3)",
+                "100630420000": "Round grain polished rice",
+                "100630440000": "Medium polished rice",
+                "100630460000": "Long polished rice (L/W 2–3)",
+                "100630480000": "Very long polished rice (L/W ≥3)",
+                "100630610000": "Round glazed rice",
+                "100630630000": "Medium glazed rice",
+                "100630650000": "Long glazed rice (L/W 2–3)",
+                "100630670000": "Very long glazed rice (L/W ≥3)",
+                "100630920000": "Round – Other",
+                "100630940000": "Medium – Other",
+                "100630960000": "Long – Other",
+                "100630980000": "Very long – Other"
+              }
+            },
+            "100640": {
+              "description": "Broken rice",
+              "classified-products": {
+                "100640000000": "Broken rice"
+              }
+            }
+          }
+        },
+        "1007": {
+          "description": "Grain sorghum",
+          "products": {
+            "100710": {
+              "description": "Sorghum – Seed",
+              "classified-products": {
+                "100710100000": "Hybrid sorghum seed",
+                "100710900000": "Sorghum seed – Other"
+              }
+            },
+            "100790": {
+              "description": "Sorghum – Other",
+              "classified-products": {
+                "100790000000": "Sorghum – Other"
+              }
+            }
+          }
+        },
+        "1008": {
+          "description": "Buckwheat, millet, canary seed; other cereals",
+          "products": {
+            "100810": {
+              "description": "Buckwheat",
+              "classified-products": {
+                "100810000000": "Buckwheat"
+              }
+            },
+            "100821": {
+              "description": "Millet – Seed",
+              "classified-products": {
+                "100821000000": "Millet seed"
+              }
+            },
+            "100829": {
+              "description": "Millet – Other",
+              "classified-products": {
+                "100829000000": "Millet – Other"
+              }
+            },
+            "100830": {
+              "description": "Canary seed",
+              "classified-products": {
+                "100830000000": "Canary seed"
+              }
+            },
+            "100840": {
+              "description": "Fonio",
+              "classified-products": {
+                "100840000000": "Fonio"
+              }
+            },
+            "100850": {
+              "description": "Quinoa",
+              "classified-products": {
+                "100850000000": "Quinoa"
+              }
+            },
+            "100860": {
+              "description": "Triticale – Seed vs. Other",
+              "classified-products": {
+                "100860000000": "Triticale seed or other"
+              }
+            },
+            "100890": {
+              "description": "Other cereals",
+              "classified-products": {
+                "100890000000": "Other cereals"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

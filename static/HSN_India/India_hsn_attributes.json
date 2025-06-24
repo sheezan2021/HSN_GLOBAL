@@ -1,0 +1,391 @@
+[
+    {
+      "hsn_code": "08011100",
+      "variant_types": {
+        "form": ["Desiccated", "Whole", "Grated"],
+        "origin": ["India", "Sri Lanka", "Indonesia"],
+        "grade": ["A", "B", "Premium"]
+      }
+    },
+    {
+      "hsn_code": "08011910",
+      "variant_types": {
+        "type": ["Fresh", "Dried"],
+        "shell": ["Shelled", "Unshelled"],
+        "origin": ["Brazil", "India"]
+      }
+    },
+    {
+      "hsn_code": "08021200",
+      "variant_types": {
+        "variety": ["Hass", "Fuerte", "Bacon"],
+        "size": ["Small", "Medium", "Large"],
+        "ripeness": ["Raw", "Ripe", "Overripe"]
+      }
+    },
+    {
+      "hsn_code": "08052010",
+      "variant_types": {
+        "type": ["Seedless", "With Seeds"],
+        "color": ["Red", "Green", "Purple"],
+        "variety": ["Thompson Seedless", "Flame Seedless", "Crimson", "Sonaka"]
+      }
+    },
+    {
+      "hsn_code": "08061000",
+      "variant_types": {
+        "variety": ["Alphonso", "Kesar", "Totapuri", "Dasheri"],
+        "grade": ["Export", "Local", "Organic"],
+        "ripeness": ["Raw", "Semi-Ripe", "Ripe"]
+      }
+    },
+    {
+      "hsn_code": "08081000",
+      "variant_types": {
+        "color": ["Green", "Yellow"],
+        "size": ["Medium", "Large"],
+        "type": ["Organic", "Regular"]
+      }
+    },
+    {
+      "hsn_code": "08102000",
+      "variant_types": {
+        "type": ["Frozen", "Preserved"],
+        "fruit": ["Mango", "Strawberry", "Pineapple"],
+        "package": ["Can", "Pouch", "Glass Jar"]
+      }
+    },
+      {
+        "hsn_code": "10011000",
+        "variant_types": {
+          "variety": ["Durum", "Emmer", "Spelt", "Khorasan"],
+          "grade": ["A", "B", "C"],
+          "moisture": ["Low (<12%)", "Medium (12–14%)", "High (>14%)"]
+        }
+      },
+      {
+        "hsn_code": "10019010",
+        "variant_types": {
+          "cereal": ["Rye", "Meslin"],
+          "usage": ["Seed", "Feed"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+      {
+        "hsn_code": "10019030",
+        "variant_types": {
+          "barley_type": ["Feed", "Malting", "Hull-less"],
+          "grade": ["Food Grade", "Feed Grade"],
+          "moisture": ["<=12%", "12–14%", ">14%"]
+        }
+      },
+      {
+        "hsn_code": "10019040",
+        "variant_types": {
+          "oats_type": ["Rolled", "Steel-cut", "Instant"],
+          "usage": ["Food", "Feed"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+      {
+        "hsn_code": "10019050",
+        "variant_types": {
+          "maize_type": ["Yellow Field Corn", "White Corn", "Sweet Corn"],
+          "kernel_color": ["Yellow", "White", "Red"],
+          "moisture": ["Low (<14%)", "Medium", "High"]
+        }
+      },
+      {
+        "hsn_code": "10019090",
+        "variant_types": {
+          "other_cereal": ["Buckwheat", "Quinoa", "Canary Seed"],
+          "origin": ["Domestic", "Imported"],
+          "grade": ["Food Grade", "Feed Grade"]
+        }
+      },
+      {
+        "hsn_code": "10021000",
+        "variant_types": {
+          "rye_type": ["Seed", "Food Grade", "Feed Grade"],
+          "moisture": ["<=12%", "12–14%", ">14%"]
+        }
+      },
+      {
+        "hsn_code": "10029000",
+        "variant_types": {
+          "meslin": ["Seed", "Feed"],
+          "origin": ["Domestic", "Imported"],
+          "grade": ["A", "B", "C"]
+        }
+      },
+      {
+        "hsn_code": "10030010",
+        "variant_types": {
+          "barley_type": ["For Malting", "For Feed", "Hull‑less"],
+          "moisture": ["<=12%", "12–14%", ">14%"]
+        }
+      },
+      {
+        "hsn_code": "10030020",
+        "variant_types": {
+          "barley_for_feed": ["Dehulled", "Pearled", "Crushed"],
+          "grade": ["Food", "Feed"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+      {
+        "hsn_code": "10030030",
+        "variant_types": {
+          "barley_other": ["Rolled", "Pearled", "Flaked"],
+          "grade": ["Food", "Feed"],
+          "packaging": ["Bulk", "Retail"]
+        }
+      },
+      {
+        "hsn_code": "10040010",
+        "variant_types": {
+          "oats_for_feed": ["Whole", "Crushed", "Rolled"],
+          "origin": ["Domestic", "Imported"],
+          "grade": ["Feed Grade", "Food Grade"]
+        }
+      },
+      {
+        "hsn_code": "10040020",
+        "variant_types": {
+          "oats_for_milling": ["Rolled", "Steel-cut", "Instant"],
+          "processing": ["Whole Grain", "Product"],
+          "moisture": ["<=10%", "10–12%", ">12%"]
+        }
+      },
+      {
+        "hsn_code": "10040030",
+        "variant_types": {
+          "oats_other": ["Raw", "Flavored"],
+          "packaging": ["Bulk", "Retail"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+      {
+        "hsn_code": "10050010",
+        "variant_types": {
+          "maize_seed": ["Simple Hybrid", "Three-cross Hybrid", "Open-pollinated"],
+          "kernel_color": ["Yellow", "White", "Red"],
+          "treatment": ["Untreated", "Treated"]
+        }
+      },
+      {
+        "hsn_code": "10050020",
+        "variant_types": {
+          "maize_feed": ["Ground", "Whole Kernel", "Cracked"],
+          "grade": ["Feed Grade", "Food Grade"],
+          "moisture": ["<=14%", "14–16%", ">16%"]
+        }
+      },
+      {
+        "hsn_code": "10050030",
+        "variant_types": {
+          "maize_other": ["Popcorn", "Snack Corn", "Flour Corn"],
+          "kernel_color": ["Yellow", "White", "Blue"],
+          "packaging": ["Bulk", "Retail"]
+        }
+      },
+      {
+        "hsn_code": "10061010",
+        "variant_types": {
+          "paddy_variety": ["Basmati", "Non‑Basmati", "Hybrid"],
+          "quality": ["Seed", "Food", "Feed"],
+          "moisture": ["<=14%", "14–16%", ">16%"]
+        }
+      },
+      {
+        "hsn_code": "10061020",
+        "variant_types": {
+          "paddy_non_basmati": ["Short Grain", "Medium Grain", "Long Grain", "Glutinous"],
+          "grade": ["Premium", "Standard"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+      {
+        "hsn_code": "10062010",
+        "variant_types": {
+          "brown_rice_variety": ["Basmati", "Non‑Basmati"],
+          "polish": ["Unmilled", "Partially Milled"],
+          "moisture": ["<=14%", "14–16%", ">16%"]
+        }
+      },
+      {
+        "hsn_code": "10062020",
+        "variant_types": {
+          "brown_rice_non_basmati": ["Short", "Medium", "Long"],
+          "packaging": ["Bulk", "Retail"],
+          "grade": ["Food Grade", "Seed Grade"]
+        }
+      },
+      {
+        "hsn_code": "10063010",
+        "variant_types": {
+          "grain_length": ["Short", "Medium", "Long", "Extra Long"],
+          "polish": ["Raw (Brown)", "Parboiled", "Fully Polished"],
+          "variety": ["Basmati", "Sona Masuri", "Ponni", "Kolam"]
+        }
+      },
+      {
+        "hsn_code": "10063020",
+        "variant_types": {
+          "grain_length_non_basmati": ["Short", "Medium", "Long"],
+          "polish": ["Semi-milled", "Fully Milled", "Parboiled"],
+          "packaging": ["Bulk Sack", "Retail Pack"]
+        }
+      },
+      {
+        "hsn_code": "10063030",
+        "variant_types": {
+          "grain_length_med_long": ["Medium", "Long"],
+          "polish": ["Blended", "Parboiled"],
+          "aroma": ["Fragrant", "Non-fragrant"]
+        }
+      },
+      {
+        "hsn_code": "10063090",
+        "variant_types": {
+          "aroma": ["Fragrant", "Non-Fragrant"],
+          "broken_pct": ["0%", "5%", "25%", "50%", "100%"],
+          "packaging": ["Bulk Sack", "Vacuum Pack", "Retail Pack"]
+        }
+      },
+      {
+        "hsn_code": "10064000",
+        "variant_types": {
+          "broken_rice_pct": ["100%", "75%", "50%", "25%"],
+          "grain_length": ["Short", "Medium", "Long"],
+          "packaging": ["Bulk", "Retail"]
+        }
+      },
+      {
+        "hsn_code": "10071000",
+        "variant_types": {
+          "sorghum_type": ["Hybrid", "Rainfed", "Food", "Feed"],
+          "kernel_color": ["Red", "White", "Yellow"],
+          "moisture": ["<=12%", "12–14%", ">14%"]
+        }
+      },
+      {
+        "hsn_code": "10079010",
+        "variant_types": {
+          "buckwheat": ["Whole Grain", "Crushed", "Flour"],
+          "packaging": ["Bulk", "Retail"]
+        }
+      },
+      {
+        "hsn_code": "10079020",
+        "variant_types": {
+          "canary_seed": ["Food Grade", "Bird Seed"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+      {
+        "hsn_code": "10079030",
+        "variant_types": {
+          "quinoa": ["White", "Red", "Black"],
+          "size": ["Small", "Medium", "Large"]
+        }
+      },
+      {
+        "hsn_code": "10079090",
+        "variant_types": {
+          "other_cereal": ["Fonio", "Amaranth", "Teff"],
+          "origin": ["Domestic", "Imported"]
+        }
+      },
+        {
+          "hsn_code": "11010000",
+          "variant_types": {
+            "flour_type": ["Wheat Flour", "Maida", "Atta", "Semolina", "Whole Wheat"],
+            "gluten_content": ["Low", "Medium", "High"],
+            "use_case": ["Bakery", "Household", "Industrial"]
+          }
+        },
+        {
+          "hsn_code": "11021000",
+          "variant_types": {
+            "flour_type": ["Rye Flour", "Barley Flour", "Oat Flour"],
+            "processing": ["Whole Grain", "Refined"],
+            "usage": ["Bread", "Cookies", "Beverage"]
+          }
+        },
+        {
+          "hsn_code": "11029010",
+          "variant_types": {
+            "flour_type": ["Rice", "Maize", "Sorghum", "Finger Millet (Ragi)", "Pearl Millet (Bajra)"],
+            "grain_source": ["Organic", "Conventional"],
+            "texture": ["Fine", "Medium", "Coarse"]
+          }
+        },
+        {
+          "hsn_code": "11031100",
+          "variant_types": {
+            "cereal_type": ["Wheat", "Barley", "Maize"],
+            "processing": ["Cracked", "Crushed", "Flaked"],
+            "packaging": ["Bulk", "Retail"]
+          }
+        },
+        {
+          "hsn_code": "11041200",
+          "variant_types": {
+            "flakes_type": ["Cornflakes", "Rice Flakes (Poha)", "Wheat Flakes"],
+            "sweetened": ["Yes", "No"],
+            "usage": ["Breakfast Cereal", "Snacks"]
+          }
+        },
+        {
+          "hsn_code": "11043000",
+          "variant_types": {
+            "bulgur_type": ["Coarse", "Medium", "Fine"],
+            "grain_origin": ["Wheat", "Barley"],
+            "cooking_method": ["Quick Cook", "Regular"]
+          }
+        },
+        {
+          "hsn_code": "11051000",
+          "variant_types": {
+            "flour_type": ["Dried Peas", "Chickpeas (Besan)", "Lentils"],
+            "protein_content": ["Low", "Medium", "High"],
+            "grind": ["Fine", "Medium", "Coarse"]
+          }
+        },
+        {
+          "hsn_code": "11061000",
+          "variant_types": {
+            "root_type": ["Tapioca", "Cassava", "Yam"],
+            "form": ["Powder", "Granules", "Flour"],
+            "use": ["Food", "Starch Production"]
+          }
+        },
+        {
+          "hsn_code": "11081100",
+          "variant_types": {
+            "starch_type": ["Wheat", "Maize", "Potato", "Rice"],
+            "grade": ["Food Grade", "Industrial Grade"],
+            "form": ["Powder", "Granules"]
+          }
+        },
+        {
+          "hsn_code": "11082000",
+          "variant_types": {
+            "inulin_source": ["Chicory", "Jerusalem Artichoke"],
+            "form": ["Powder", "Extract"],
+            "use": ["Dietary Supplement", "Food Additive"]
+          }
+        },
+        {
+          "hsn_code": "11090000",
+          "variant_types": {
+            "gluten_form": ["Powder", "Liquid"],
+            "drying_method": ["Spray Dried", "Drum Dried"],
+            "use_case": ["Bakery", "Meat Alternative", "Feed"]
+          }
+        }    
+    
+    
+  ]
+  

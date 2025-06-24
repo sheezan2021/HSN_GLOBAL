@@ -1,12 +1,37 @@
 // Function to load HSN attributes for a given HSN code
 async function loadHsnAttributes(hsnCode) {
     try {
-        const response = await fetch(`/get_hsn_attributes?hsn_code=${hsnCode}`);
-        if (!response.ok) {
-            console.log('No attributes found for HSN code:', hsnCode);
+        // Clean and format the HSN code
+        const cleanHsnCode = String(hsnCode).trim().replace(/[^0-9]/g, '');
+        if (!cleanHsnCode) {
+            console.log('Invalid HSN code:', hsnCode);
             return null;
         }
-        return await response.json();
+        
+        const countrySelect = document.getElementById('country');
+        const countryCode = countrySelect ? countrySelect.value : 'IN';
+        
+        console.log('Fetching HSN attributes for:', {
+            hsnCode: hsnCode,
+            cleanHsnCode: cleanHsnCode,
+            countryCode: countryCode
+        });
+        
+        const url = `/get_hsn_attributes?hsn_code=${encodeURIComponent(cleanHsnCode)}&country=${encodeURIComponent(countryCode)}`;
+        console.log('Request URL:', url);
+        
+        const response = await fetch(url);
+        
+        if (!response.ok) {
+            const errorText = await response.text();
+            console.error('Error response from server:', response.status, errorText);
+            return null;
+        }
+        
+        const data = await response.json();
+        console.log('Received HSN attributes:', data);
+        return data;
+        
     } catch (error) {
         console.error('Error loading HSN attributes:', error);
         return null;
@@ -15,11 +40,30 @@ async function loadHsnAttributes(hsnCode) {
 
 // Function to display variant options in the UI
 function displayVariantOptions(attributes) {
+    console.log('displayVariantOptions called with:', attributes);
     const variantsContainer = document.getElementById('variant-options');
     const optionsContainer = document.getElementById('variant-options-container');
     
-    if (!attributes || !attributes.variant_types) {
-        variantsContainer.style.display = 'none';
+    // Always show the container but with appropriate message if no attributes
+    variantsContainer.style.display = 'block';
+    
+    if (!attributes) {
+        console.log('No attributes object received');
+        optionsContainer.innerHTML = `
+            <div class="alert alert-warning p-2 mb-0">
+                <i class="fas fa-exclamation-triangle me-1"></i>
+                No attributes data received from server.
+            </div>`;
+        return;
+    }
+    
+    if (!attributes.variant_types) {
+        console.log('No variant_types in attributes:', attributes);
+        optionsContainer.innerHTML = `
+            <div class="alert alert-warning p-2 mb-0">
+                <i class="fas fa-exclamation-triangle me-1"></i>
+                No variant types found for this HSN code. Attributes received: ${JSON.stringify(attributes)}
+            </div>`;
         return;
     }
 
@@ -47,6 +91,9 @@ function displayVariantOptions(attributes) {
     
     optionsContainer.innerHTML = html;
     variantsContainer.style.display = 'block';
+    
+    // Log the attributes being displayed
+    console.log('Displaying variant options:', attributes.variant_types);
     
     // Clear previous selection
     document.getElementById('selected-variant').textContent = 'No variants selected';

@@ -1,0 +1,300 @@
+[
+    {
+      "hsn_code": "10011000",
+      "variant_types": {
+        "variety": ["Durum", "Common Wheat", "Emmer", "Spelt"],
+        "grade": ["A", "B", "C"],
+        "moisture": ["≤12%", "12–14%", ">14%"]
+      }
+    },
+    {
+      "hsn_code": "10019010",
+      "variant_types": {
+        "cereal": ["Rye", "Meslin"],
+        "usage": ["Seed", "Feed", "Food"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10019030",
+      "variant_types": {
+        "barley_type": ["Feed", "Malting", "Hull‑less"],
+        "grade": ["Food", "Feed"],
+        "moisture": ["≤12%", "12–14%", ">14%"]
+      }
+    },
+    {
+      "hsn_code": "10019040",
+      "variant_types": {
+        "oats_type": ["Rolled", "Steel‑cut", "Instant"],
+        "usage": ["Food", "Feed"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10019050",
+      "variant_types": {
+        "maize_type": ["Field Corn", "Sweet Corn", "Popcorn"],
+        "kernel_color": ["Yellow", "White", "Red"],
+        "moisture": ["≤14%", "14–16%", ">16%"]
+      }
+    },
+    {
+      "hsn_code": "10019090",
+      "variant_types": {
+        "other_cereal": ["Buckwheat", "Quinoa", "Fonio", "Canary Seed"],
+        "grade": ["Food", "Feed"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10031000",
+      "variant_types": {
+        "barley_seed_type": ["Two-row", "Six-row", "Hull-less"],
+        "treatment": ["Untreated", "Primed"],
+        "grade": ["Seed", "Feed"]
+      }
+    },
+    {
+      "hsn_code": "10039000",
+      "variant_types": {
+        "barley_other_form": ["Rolled", "Pearled", "Flaked"],
+        "packaging": ["Bulk", "Bagged"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10041000",
+      "variant_types": {
+        "oats_seed_type": ["Hull-less", "With Hull"],
+        "grade": ["Seed", "Feed"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10049000",
+      "variant_types": {
+        "oats_other": ["Rolled", "Steel-cut", "Instant"],
+        "packaging": ["Bulk", "Retail"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10051000",
+      "variant_types": {
+        "maize_seed_type": ["Simple Hybrid", "Three-cross Hybrid", "Open-pollinated"],
+        "kernel_color": ["Yellow", "White", "Red", "Blue"],
+        "treatment": ["DOB-treated", "Untreated"]
+      }
+    },
+    {
+      "hsn_code": "10059000",
+      "variant_types": {
+        "maize_other": ["Popcorn", "Flour Corn", "Sweet Corn"],
+        "kernel_color": ["Yellow", "White", "Blue"],
+        "packaging": ["Bulk", "Bulk Bag", "Retail"]
+      }
+    },
+    {
+      "hsn_code": "10061000",
+      "variant_types": {
+        "paddy_variety": ["Short Grain", "Medium Grain", "Long Grain"],
+        "quality": ["Seed", "Food", "Feed"],
+        "moisture": ["≤14%", "14–16%", ">16%"]
+      }
+    },
+    {
+      "hsn_code": "10062000",
+      "variant_types": {
+        "brown_rice_variety": ["Short", "Medium", "Long", "Glutinous"],
+        "packaging": ["Bulk", "Sacked", "Retail"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+    {
+      "hsn_code": "10063000",
+      "variant_types": {
+        "rice_type": ["Raw (brown)", "Parboiled", "Fully Polished"],
+        "grain_length": ["Short", "Medium", "Long", "Extra Long"],
+        "batch_quality": ["Premium", "Standard", "Budget"]
+      }
+    },
+    {
+      "hsn_code": "10064000",
+      "variant_types": {
+        "broken_rice_pct": ["25%", "50%", "75%", "100%"],
+        "grain_length": ["Short", "Medium", "Long"],
+        "packaging": ["Bulk", "Retail"]
+      }
+    },
+    {
+      "hsn_code": "10071000",
+      "variant_types": {
+        "sorghum_type": ["Hybrid", "Rainfed"],
+        "kernel_color": ["White", "Red", "Yellow"],
+        "moisture": ["≤12%", "12–14%", ">14%"]
+      }
+    },
+    {
+      "hsn_code": "10079000",
+      "variant_types": {
+        "other_cereal": ["Buckwheat", "Quinoa", "Fonio", "Triticale"],
+        "processing": ["Whole Grain", "Crushed", "Flour"],
+        "origin": ["Domestic", "EU", "Non‑EU"]
+      }
+    },
+        {
+          "hsn_code": "11010000",
+          "variant_types": {
+            "flour_type": ["Whole Wheat Flour", "White Flour", "Semolina", "Durum Flour"],
+            "protein_content": ["Low", "Medium", "High"],
+            "usage": ["Baking", "Pasta", "Industrial"]
+          }
+        },
+        {
+          "hsn_code": "11021000",
+          "variant_types": {
+            "flour_type": ["Rye Flour", "Barley Flour", "Oat Flour"],
+            "processing": ["Whole Grain", "Refined"],
+            "packaging": ["Bulk", "Retail Sack"]
+          }
+        },
+        {
+          "hsn_code": "11022000",
+          "variant_types": {
+            "corn_flour_fat": ["≤1.5% Fat", ">1.5% Fat"],
+            "grain_origin": ["Domestic", "EU", "Non‑EU"],
+            "use_case": ["Food Grade", "Industrial Grade"]
+          }
+        },
+        {
+          "hsn_code": "11029000",
+          "variant_types": {
+            "flour_type": ["Barley", "Oat", "Rice", "Rye", "Millet"],
+            "texture": ["Fine", "Medium", "Coarse"],
+            "certification": ["Organic", "Conventional"]
+          }
+        },
+        {
+          "hsn_code": "11031100",
+          "variant_types": {
+            "groats_type": ["Wheat", "Barley", "Maize"],
+            "processing": ["Cracked", "Flaked", "Pearled"],
+            "packaging": ["Bulk", "Retail Pack"]
+          }
+        },
+        {
+          "hsn_code": "11031900",
+          "variant_types": {
+            "pellets_type": ["Oat", "Barley", "Wheat"],
+            "packet_size": ["Bulk", "20kg Bag", "Retail Pack"],
+            "use": ["Animal Feed", "Food"]
+          }
+        },
+        {
+          "hsn_code": "11041000",
+          "variant_types": {
+            "sharps_type": ["Wheat Sharps", "Barley Sharps"],
+            "usage": ["Feed", "Industrial"],
+            "origin": ["Domestic", "EU", "Non‑EU"]
+          }
+        },
+        {
+          "hsn_code": "11043000",
+          "variant_types": {
+            "bulgur_grade": ["Coarse", "Medium", "Fine"],
+            "grain_origin": ["Wheat", "Barley"],
+            "cooking_time": ["Quick", "Standard"]
+          }
+        },
+        {
+          "hsn_code": "11051000",
+          "variant_types": {
+            "legume_flour": ["Pea Flour", "Chickpea (Besan)", "Lentil"],
+            "protein_content": ["Low", "Medium", "High"],
+            "grind": ["Fine", "Medium", "Coarse"]
+          }
+        },
+        {
+          "hsn_code": "11061000",
+          "variant_types": {
+            "root_starch_type": ["Tapioca", "Cassava", "Yam"],
+            "form": ["Flour", "Granules", "Powder"],
+            "industrial_use": ["Food", "Paper", "Textile"]
+          }
+        },
+        {
+          "hsn_code": "11062000",
+          "variant_types": {
+            "sago_type": ["Denatured", "Undenatured"],
+            "form": ["Powder", "Granules"],
+            "use_case": ["Food", "Industrial"]
+          }
+        },
+        {
+          "hsn_code": "11063000",
+          "variant_types": {
+            "fruit_flour_type": ["Banana", "Plantain", "Exotic"],
+            "form": ["Flour", "Meal"],
+            "certification": ["Organic", "Conventional"]
+          }
+        },
+        {
+          "hsn_code": "11071000",
+          "variant_types": {
+            "malt_type": ["Barley Malt", "Wheat Malt"],
+            "roasting": ["Not Roasted", "Roasted"],
+            "use_case": ["Brewing", "Food Ingredients"]
+          }
+        },
+        {
+          "hsn_code": "11072000",
+          "variant_types": {
+            "malt_type": ["Dark Roast", "Light Roast"],
+            "origin": ["Domestic", "EU", "Non‑EU"],
+            "packet_size": ["Bulk", "Retail"]
+          }
+        },
+        {
+          "hsn_code": "11081100",
+          "variant_types": {
+            "starch_source": ["Wheat", "Maize (Corn)"],
+            "grade": ["Food", "Industrial"],
+            "packaging": ["Bagged", "Bulk"]
+          }
+        },
+        {
+          "hsn_code": "11081200",
+          "variant_types": {
+            "starch_source": ["Potato", "Cassava"],
+            "grade": ["Food Grade", "Industrial Grade"],
+            "moisture_content": ["<12%", "12–14%", ">14%"]
+          }
+        },
+        {
+          "hsn_code": "11081400",
+          "variant_types": {
+            "starch_type": ["Cassava", "Manioc"],
+            "form": ["Powder", "Granules"],
+            "use": ["Food", "Industrial"]
+          }
+        },
+        {
+          "hsn_code": "11081900",
+          "variant_types": {
+            "other_starch": ["Rice", "Pea", "Tapioca"],
+            "form": ["Powder", "Extract"],
+            "certification": ["Organic", "Conventional"]
+          }
+        },
+        {
+          "hsn_code": "11090000",
+          "variant_types": {
+            "gluten_form": ["Wet", "Spray Dried", "Drum Dried"],
+            "protein_content": ["High", "Medium", "Low"],
+            "use_case": ["Bakery", "Meat Alternative", "Feed"]
+          }
+        }
+      ]
+      
+  

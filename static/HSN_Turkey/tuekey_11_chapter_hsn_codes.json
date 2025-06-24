@@ -1,0 +1,153 @@
+{
+    "11": {
+      "description": "Products of the milling industry; malt; starches; inulin; wheat gluten",
+      "categories": {
+        "1101": {
+          "description": "Wheat or meslin flour",
+          "products": {
+            "110100": {
+              "description": "Wheat or meslin flour",
+              "classified-products": {
+                "110100110000": "Flour of durum wheat",
+                "110100150000": "Flour of common wheat and spelt",
+                "110100900000": "Meslin flour"
+              }
+            }
+          }
+        },
+        "1102": {
+          "description": "Cereal flours, except wheat or meslin",
+          "products": {
+            "110220": {
+              "description": "Maize (corn) flour",
+              "classified-products": {
+                "110220100000": "Corn flour ≤1.5% fat",
+                "110220900000": "Other corn flour"
+              }
+            },
+            "110290": {
+              "description": "Other cereal flours",
+              "classified-products": {
+                "110290100000": "Barley flour",
+                "110290300000": "Oat flour",
+                "110290500000": "Rice flour",
+                "110290700000": "Rye flour",
+                "110290900000": "Other cereal flour"
+              }
+            }
+          }
+        },
+        "1103": {
+          "description": "Cereal groats, meal and pellets",
+          "products": {
+            "110319": {
+              "description": "Pellets, flakes, granules of potatoes",
+              "classified-products": {
+                "110319000000": "Potato flakes/granules/pellets"
+              }
+            }
+          }
+        },
+        "1106": {
+          "description": "Flour, meal & powder of dried legumes, sago, fruit etc.",
+          "products": {
+            "110610": {
+              "description": "Flour/meal of dried legumes",
+              "classified-products": {
+                "110610000000": "Flour/meal of dried legumes"
+              }
+            },
+            "110620": {
+              "description": "Flour/meal of sago or roots/tubers",
+              "classified-products": {
+                "110620100000": "Denatured sago/root flour",
+                "110620900000": "Other sago/root flour"
+              }
+            },
+            "110630": {
+              "description": "Flour/meal of Chapter 8 products",
+              "classified-products": {
+                "110630100000": "Banana flour/meal",
+                "110630900000": "Other fruit/nut flour"
+              }
+            }
+          }
+        },
+        "1107": {
+          "description": "Malt, whether or not roasted",
+          "products": {
+            "110710": {
+              "description": "Not roasted malt",
+              "classified-products": {
+                "110710110000": "Wheat malt in flour form",
+                "110710190000": "Other wheat malt",
+                "110710910000": "Barley malt in flour form",
+                "110710990000": "Other barley malt"
+              }
+            },
+            "110720": {
+              "description": "Roasted malt",
+              "classified-products": {
+                "110720000000": "Roasted malt (wheat, barley, other)"
+              }
+            }
+          }
+        },
+        "1108": {
+          "description": "Starches; inulin",
+          "products": {
+            "110811": {
+              "description": "Wheat starch",
+              "classified-products": {
+                "110811001000": "Wheat starch in sacks",
+                "110811009000": "Other wheat starch"
+              }
+            },
+            "110812": {
+              "description": "Maize (corn) starch",
+              "classified-products": {
+                "110812001000": "Maize starch in sacks",
+                "110812009000": "Other maize starch"
+              }
+            },
+            "110813": {
+              "description": "Potato starch",
+              "classified-products": {
+                "110813001000": "Potato starch in sacks",
+                "110813009000": "Other potato starch"
+              }
+            },
+            "110814": {
+              "description": "Manioc (cassava) starch",
+              "classified-products": {
+                "110814001000": "Cassava starch in sacks",
+                "110814009000": "Other cassava starch"
+              }
+            },
+            "110819": {
+              "description": "Other starches and inulin",
+              "classified-products": {
+                "110819101000": "Rice starch in sacks",
+                "110819109000": "Other rice starch",
+                "110819901000": "Other starch in sacks",
+                "110819909000": "Other starch – other",
+                "110820000000": "Inulin"
+              }
+            }
+          }
+        },
+        "1109": {
+          "description": "Wheat gluten, whether or not dried",
+          "products": {
+            "110900": {
+              "description": "Wheat gluten",
+              "classified-products": {
+                "110900000000": "Wheat gluten, not dried or dried"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

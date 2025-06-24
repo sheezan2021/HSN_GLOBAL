@@ -1,0 +1,226 @@
+{
+    "10": {
+      "description": "Cereals",
+      "categories": {
+        "1001": {
+          "description": "Wheat and meslin",
+          "products": {
+            "100110": {
+              "description": "Wheat",
+              "classified-products": {
+                "10011010": "Wheat – Hard / durum",
+                "10011020": "Wheat – Soft",
+                "10011090": "Wheat – Other"
+              }
+            },
+            "100190": {
+              "description": "Rye, meslin; barley, oats, maize",
+              "classified-products": {
+                "10019010": "Rye",
+                "10019020": "Meslin",
+                "10019030": "Barley",
+                "10019040": "Oats",
+                "10019050": "Maize (corn)",
+                "10019090": "Other cereals"
+              }
+            }
+          }
+        },
+        "1002": {
+          "description": "Rye and meslin",
+          "products": {
+            "100210": {
+              "description": "Rye",
+              "classified-products": {
+                "10021000": "Rye"
+              }
+            },
+            "100290": {
+              "description": "Meslin (mixed wheat and rye)",
+              "classified-products": {
+                "10029000": "Meslin"
+              }
+            }
+          }
+        },
+        "1003": {
+          "description": "Barley",
+          "products": {
+            "100300": {
+              "description": "Barley",
+              "classified-products": {
+                "10030010": "Barley – For malting",
+                "10030020": "Barley – For feed",
+                "10030030": "Barley – Other"
+              }
+            }
+          }
+        },
+        "1004": {
+          "description": "Oats",
+          "products": {
+            "100400": {
+              "description": "Oats",
+              "classified-products": {
+                "10040010": "Oats – For feed",
+                "10040020": "Oats – For milling",
+                "10040030": "Oats – Other"
+              }
+            }
+          }
+        },
+        "1005": {
+          "description": "Maize (corn)",
+          "products": {
+            "100500": {
+              "description": "Maize",
+              "classified-products": {
+                "10050010": "Maize – Seed",
+                "10050020": "Maize – Feed",
+                "10050030": "Maize – Other"
+              }
+            }
+          }
+        },
+        "1006": {
+          "description": "Rice",
+          "products": {
+            "100610": {
+              "description": "Rice– Paddy (unhusked rice)",
+              "classified-products": {
+                "10061010": "Paddy rice – Basmati",
+                "10061020": "Paddy rice – Non‑Basmati"
+              }
+            },
+            "100620": {
+              "description": "Rice– Husked (brown rice)",
+              "classified-products": {
+                "10062010": "Husked rice – Basmati",
+                "10062020": "Husked rice – Non‑Basmati"
+              }
+            },
+            "100630": {
+              "description": "Broken rice",
+              "classified-products": {
+                "10063010": "Broken rice – Basmati",
+                "10063020": "Broken rice – Non‑Basmati"
+              }
+            }
+          }
+        },
+        "1007": {
+          "description": "Grains (millet, sorghum, etc.)",
+          "products": {
+            "100710": {
+              "description": "Millet (jowar, bajra, ragi, etc.)",
+              "classified-products": {
+                "10071010": "Jowar",
+                "10071020": "Bajra",
+                "10071030": "Ragi",
+                "10071090": "Other millet"
+              }
+            },
+            "100720": {
+              "description": "Sorghum",
+              "classified-products": {
+                "10072000": "Sorghum"
+              }
+            },
+            "100790": {
+              "description": "Other cereal grains",
+              "classified-products": {
+                "10079010": "Buckwheat",
+                "10079020": "Canary seed",
+                "10079030": "Quinoa",
+                "10079090": "Other grain"
+              }
+            }
+          }
+        },
+        "1008": {
+          "description": "Cereal flours & meals",
+          "products": {
+            "100810": {
+              "description": "Wheat and meslin flour",
+              "classified-products": {
+                "10081010": "Wheat flour – Whole meal",
+                "10081020": "Wheat flour – White"
+              }
+            },
+            "100820": {
+              "description": "Rye flour",
+              "classified-products": {
+                "10082000": "Rye flour"
+              }
+            },
+            "100830": {
+              "description": "Barley flour",
+              "classified-products": {
+                "10083000": "Barley flour"
+              }
+            },
+            "100840": {
+              "description": "Oat flour and meal",
+              "classified-products": {
+                "10084000": "Oat flour/meal"
+              }
+            },
+            "100850": {
+              "description": "Maize (corn) flour & meal",
+              "classified-products": {
+                "10085010": "Maize flour – White",
+                "10085020": "Maize flour – Yellow"
+              }
+            },
+            "100860": {
+              "description": "Rice flour & flour of oats, millet, maize",
+              "classified-products": {
+                "10086010": "Rice flour",
+                "10086020": "Millet flour",
+                "10086030": "Sorghum flour"
+              }
+            },
+            "100890": {
+              "description": "Other cereal flours & meals",
+              "classified-products": {
+                "10089010": "Buckwheat flour",
+                "10089020": "Quinoa flour",
+                "10089030": "Other cereal flour"
+              }
+            }
+          }
+        },
+        "1009": {
+          "description": "Mixed grains, starches, gluten",
+          "products": {
+            "100910": {
+              "description": "Mixed grains, bulgur, couscous, etc.",
+              "classified-products": {
+                "10091010": "Bulgur wheat",
+                "10091020": "Couscous",
+                "10091030": "Pearled barley",
+                "10091090": "Other mixed grains"
+              }
+            },
+            "100920": {
+              "description": "Starches and inulin",
+              "classified-products": {
+                "10092010": "Wheat starch",
+                "10092020": "Maize (corn) starch",
+                "10092030": "Rice starch",
+                "10092090": "Other starch"
+              }
+            },
+            "100930": {
+              "description": "Gluten and gluten meal",
+              "classified-products": {
+                "10093010": "Wheat gluten",
+                "10093020": "Maize gluten"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  

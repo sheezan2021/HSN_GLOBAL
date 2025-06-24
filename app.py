@@ -517,28 +517,103 @@ def get_hsn():
 @app.route('/get_hsn_attributes')
 def get_hsn_attributes():
     hsn_code = request.args.get('hsn_code')
+    country_code = request.args.get('country', 'IN').upper()
+    
+    print(f"\n=== Debug: HSN Attributes Request ===")
+    print(f"HSN Code: {hsn_code}, Country: {country_code}")
+    
     if not hsn_code:
         return jsonify({"error": "HSN code is required"}), 400
     
-    try:
-        # Load the hsn_attributes.json file
-        attributes_path = os.path.join('static', 'HSN_India', 'hsn_attributes.json')
-        if os.path.exists(attributes_path):
-            with open(attributes_path, 'r', encoding='utf-8') as f:
-                all_attributes = json.load(f)
-                # If it's a single object, convert it to a list with one item
-                if not isinstance(all_attributes, list):
-                    all_attributes = [all_attributes]
-                
-                # Find matching HSN code (exact match or prefix match)
-                for attr in all_attributes:
-                    if attr.get('hsn_code') == hsn_code:
-                        return jsonify(attr)
+    # Get country directory from available countries
+    country_info = AVAILABLE_COUNTRIES.get(country_code, {})
+    if not country_info:
+        print(f"Error: Unknown country code: {country_code}")
+        return jsonify({"error": f"Unsupported country code: {country_code}"}), 400
+    
+    country_dir = country_info.get('dir', 'HSN_India')
+    
+    # Determine the attributes filename based on country
+    # Handle case-insensitive filename for India
+    if country_code.upper() == 'IN':
+        attributes_filename = "India_hsn_attributes.json"
+    else:
+        attributes_filename = f"{country_code.lower()}_hsn_attributes.json"
         
-        return jsonify({"error": "Attributes not found for this HSN code"}), 404
+    attributes_path = os.path.join('static', country_dir, attributes_filename)
+    print(f"Looking for attributes in: {os.path.abspath(attributes_path)}")
+    
+    print(f"Debug: Looking for attributes in {attributes_path}")
+    
+    try:
+        if not os.path.exists(attributes_path):
+            print(f"Error: Attributes file not found at {os.path.abspath(attributes_path)}")
+            return jsonify({"error": f"Attributes file not found for country {country_code}"}), 404
+        
+        print(f"Loading attributes from: {os.path.abspath(attributes_path)}")
+        with open(attributes_path, 'r', encoding='utf-8') as f:
+            all_attributes = json.load(f)
+            
+        # If it's a single object, convert it to a list with one item
+        if not isinstance(all_attributes, list):
+            print("Converting single attribute object to list")
+            all_attributes = [all_attributes]
+        
+        print(f"Successfully loaded {len(all_attributes)} attribute entries")
+        
+        # Find matching HSN code (handle different formats)
+        found = False
+        for idx, attr in enumerate(all_attributes, 1):
+            if not isinstance(attr, dict):
+                print(f"Warning: Entry {idx} is not a dictionary: {attr}")
+                continue
+                
+            if 'hsn_code' not in attr:
+                print(f"Warning: Entry {idx} is missing hsn_code")
+                continue
+            
+            # Get the HSN code from attributes and clean it
+            attr_code = str(attr['hsn_code']).strip()
+            search_code = str(hsn_code).strip()
+            
+            print(f"Checking entry {idx}: HSN {attr_code} (type: {type(attr['hsn_code']).__name__}) "
+                  f"against search code {search_code}")
+            
+            # Try exact match first
+            if attr_code == search_code:
+                print(f"✓ Found exact match for HSN code: {search_code}")
+                print(f"Variant types: {attr.get('variant_types', 'N/A')}")
+                return jsonify(attr)
+                
+            # If no exact match, try removing any non-digit characters and compare
+            clean_attr_code = ''.join(c for c in attr_code if c.isdigit())
+            clean_search_code = ''.join(c for c in search_code if c.isdigit())
+            
+            if clean_attr_code and clean_search_code and clean_attr_code == clean_search_code:
+                print(f"✓ Found match after cleaning for HSN code: {search_code}")
+                print(f"Variant types: {attr.get('variant_types', 'N/A')}")
+                return jsonify(attr)
+            
+            # If still no match, check if one is a prefix of the other
+            if (clean_attr_code.startswith(clean_search_code) or 
+                clean_search_code.startswith(clean_attr_code)):
+                print(f"✓ Found prefix match for HSN code: {search_code}")
+                print(f"Variant types: {attr.get('variant_types', 'N/A')}")
+                return jsonify(attr)
+        
+        print(f"No matching HSN code found in {len(all_attributes)} entries")
+        
+        print(f"Debug: No matching HSN code found in {attributes_path}")
+        return jsonify({"error": f"Attributes not found for HSN code: {hsn_code}"}), 404
+        
+    except json.JSONDecodeError as je:
+        print(f"JSON Decode Error in {attributes_path}: {je}")
+        return jsonify({"error": f"Invalid JSON in attributes file: {je}"}), 500
     except Exception as e:
-        print(f"Error loading HSN attributes: {e}")
-        return jsonify({"error": "Error loading attributes"}), 500
+        print(f"Error loading HSN attributes from {attributes_path}: {str(e)}")
+        import traceback
+        traceback.print_exc()
+        return jsonify({"error": f"Error loading attributes: {str(e)}"}), 500
 
 if __name__ == "__main__":
     app.secret_key = 'your-secret-key-here'
