@@ -1,6 +1,7 @@
 from app import app
 from flask import send_from_directory
 import os
+from waitress import serve
 
 # Serve static files directly
 @app.route('/<path:path>')
@@ -14,4 +15,6 @@ handler = app
 
 # This is needed for local development
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=int(os.environ.get('PORT', 3000)))
+    port = int(os.environ.get('PORT', 3000))
+    print(f"Starting Waitress server on port {port}...")
+    serve(app, host='0.0.0.0', port=port)
